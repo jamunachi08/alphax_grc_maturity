@@ -1,0 +1,57 @@
+[
+ {
+  "band_key": "critical",
+  "band_label": "Critical",
+  "band_label_ar": "حرج",
+  "min_pct": 0,
+  "max_pct": 34.99,
+  "color": "#dc3545",
+  "icon": "🔴",
+  "interpretation": "Significant gaps exist. Immediate attention required.",
+  "interpretation_ar": "توجد فجوات كبيرة. يتطلب الأمر اهتمامًا فوريًا."
+ },
+ {
+  "band_key": "low",
+  "band_label": "Low",
+  "band_label_ar": "منخفض",
+  "min_pct": 35,
+  "max_pct": 54.99,
+  "color": "#fd7e14",
+  "icon": "🟠",
+  "interpretation": "Foundational practices exist but are inconsistently applied.",
+  "interpretation_ar": "توجد ممارسات أساسية لكنها تُطبّق بشكل غير متسق."
+ },
+ {
+  "band_key": "medium",
+  "band_label": "Medium",
+  "band_label_ar": "متوسط",
+  "min_pct": 55,
+  "max_pct": 74.99,
+  "color": "#ffc107",
+  "icon": "🟡",
+  "interpretation": "Core practices are in place. Enhancements needed for best-in-class.",
+  "interpretation_ar": "الممارسات الأساسية قائمة، وتحتاج إلى تحسينات لبلوغ أفضل الممارسات."
+ },
+ {
+  "band_key": "high",
+  "band_label": "High",
+  "band_label_ar": "مرتفع",
+  "min_pct": 75,
+  "max_pct": 89.99,
+  "color": "#198754",
+  "icon": "🟢",
+  "interpretation": "Robust practices aligned with international best practice.",
+  "interpretation_ar": "ممارسات متينة متوافقة مع أفضل الممارسات الدولية."
+ },
+ {
+  "band_key": "leading",
+  "band_label": "Leading",
+  "band_label_ar": "رائد",
+  "min_pct": 90,
+  "max_pct": 100,
+  "color": "#0d6efd",
+  "icon": "⭐",
+  "interpretation": "Benchmark for excellence with advanced practices.",
+  "interpretation_ar": "مرجع للتميز بممارسات متقدمة."
+ }
+]

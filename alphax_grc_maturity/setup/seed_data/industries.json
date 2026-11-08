@@ -1,0 +1,220 @@
+[
+ {
+  "industry_type": "Financial Services",
+  "industry_type_ar": "الخدمات المالية",
+  "sequence": 1,
+  "regulators": [
+   "SAMA (Saudi Central Bank)",
+   "CMA (Capital Market Authority)",
+   "Insurance Authority",
+   "SOCPA (Saudi Organization for Chartered and Professional Accountants)"
+  ]
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "industry_type_ar": "الموارد البشرية",
+  "sequence": 2,
+  "regulators": [
+   "GOSI (General Organization for Social Insurance)"
+  ]
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "industry_type_ar": "تقنية المعلومات",
+  "sequence": 3,
+  "regulators": [
+   "MCIT (Ministry of Communications and Information Technology)",
+   "CST (Communications, Space and Technology Commission)",
+   "DGA (Digital Government Authority)"
+  ]
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "industry_type_ar": "الأمن السيبراني",
+  "sequence": 4,
+  "regulators": []
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "industry_type_ar": "الذكاء الاصطناعي",
+  "sequence": 5,
+  "regulators": [
+   "CST (Communications, Space and Technology Commission)"
+  ]
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "industry_type_ar": "الحوكمة والمخاطر والالتزام",
+  "sequence": 6,
+  "regulators": []
+ },
+ {
+  "industry_type": "Audit and Assurance Services",
+  "industry_type_ar": "خدمات المراجعة والتأكيد",
+  "sequence": 7,
+  "regulators": [
+   "SOCPA (Saudi Organization for Chartered and Professional Accountants)"
+  ]
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "industry_type_ar": "الخدمات اللوجستية والنقل (بما فيها سلاسل الإمداد)",
+  "sequence": 8,
+  "regulators": [
+   "Transport General Authority",
+   "GACA (General Authority of Civil Aviation)",
+   "Mawani (Saudi Ports Authority)"
+  ]
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "industry_type_ar": "الترفيه والإعلام",
+  "sequence": 9,
+  "regulators": [
+   "GAMR (General Authority of Media Regulation)",
+   "General Entertainment Authority",
+   "Ministry of Culture"
+  ]
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "industry_type_ar": "الضيافة والفنادق",
+  "sequence": 10,
+  "regulators": [
+   "Ministry of Tourism",
+   "Ministry of Municipalities and Housing (Balady)",
+   "SFDA (Saudi Food and Drug Authority)",
+   "Civil Defense"
+  ]
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "industry_type_ar": "الرعاية الصحية والخدمات الطبية",
+  "sequence": 11,
+  "regulators": [
+   "Ministry of Health",
+   "SFDA (Saudi Food and Drug Authority)",
+   "SCFHS (Saudi Commission for Health Specialties)",
+   "CBAHI (Central Board for Accreditation of Healthcare Institutions)",
+   "Public Health Authority (Weqaya)",
+   "Insurance Authority"
+  ]
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "industry_type_ar": "التجارة الإلكترونية والتجزئة",
+  "sequence": 12,
+  "regulators": [
+   "SASO (Saudi Standards, Metrology and Quality Org.)",
+   "SFDA (Saudi Food and Drug Authority)",
+   "SAMA (Saudi Central Bank)"
+  ]
+ },
+ {
+  "industry_type": "Professional and Consulting Services",
+  "industry_type_ar": "الخدمات المهنية والاستشارية",
+  "sequence": 13,
+  "regulators": [
+   "Ministry of Justice",
+   "Saudi Council of Engineers",
+   "SOCPA (Saudi Organization for Chartered and Professional Accountants)"
+  ]
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "industry_type_ar": "الإنشاءات والهندسة والعقار",
+  "sequence": 14,
+  "regulators": [
+   "Ministry of Municipalities and Housing",
+   "REGA (Real Estate General Authority)",
+   "Saudi Contractors Authority",
+   "Saudi Council of Engineers"
+  ]
+ },
+ {
+  "industry_type": "Telecommunications",
+  "industry_type_ar": "الاتصالات",
+  "sequence": 15,
+  "regulators": [
+   "CST (Communications, Space and Technology Commission)"
+  ]
+ },
+ {
+  "industry_type": "Education and Training",
+  "industry_type_ar": "التعليم والتدريب",
+  "sequence": 16,
+  "regulators": [
+   "Ministry of Education",
+   "ETEC (Education and Training Evaluation Commission)",
+   "TVTC (Technical and Vocational Training Corporation)"
+  ]
+ },
+ {
+  "industry_type": "Manufacturing and Industrial",
+  "industry_type_ar": "التصنيع والصناعة",
+  "sequence": 17,
+  "regulators": [
+   "Ministry of Industry and Mineral Resources",
+   "SASO (Saudi Standards, Metrology and Quality Org.)",
+   "NCEC (National Center for Environmental Compliance)"
+  ]
+ },
+ {
+  "industry_type": "Energy and Utilities",
+  "industry_type_ar": "الطاقة والمرافق",
+  "sequence": 18,
+  "regulators": [
+   "Ministry of Energy",
+   "SERA (Saudi Electricity Regulatory Authority)",
+   "Ministry of Environment, Water and Agriculture",
+   "NCEC (National Center for Environmental Compliance)"
+  ]
+ },
+ {
+  "industry_type": "Government and Public Sector",
+  "industry_type_ar": "الحكومة والقطاع العام",
+  "sequence": 19,
+  "regulators": [
+   "Nazaha (Oversight and Anti-Corruption Authority)"
+  ]
+ },
+ {
+  "industry_type": "Facilities Management and Physical Security",
+  "industry_type_ar": "إدارة المرافق والأمن المادي",
+  "sequence": 20,
+  "regulators": [
+   "Ministry of Interior",
+   "HCIS (High Commission for Industrial Security)"
+  ]
+ },
+ {
+  "industry_type": "Agriculture and Food Production",
+  "industry_type_ar": "الزراعة وإنتاج الغذاء",
+  "sequence": 21,
+  "regulators": [
+   "Ministry of Environment, Water and Agriculture",
+   "SFDA (Saudi Food and Drug Authority)",
+   "NCEC (National Center for Environmental Compliance)",
+   "Ministry of Municipalities and Housing (Balady)"
+  ]
+ },
+ {
+  "industry_type": "Procurement",
+  "industry_type_ar": "المشتريات",
+  "sequence": 22,
+  "regulators": [
+   "Ministry of Finance",
+   "LCGPA (Local Content and Government Procurement Authority)",
+   "Nazaha (Oversight and Anti-Corruption Authority)",
+   "Centre for Expenditure Efficiency"
+  ]
+ },
+ {
+  "industry_type": "Membership and Non-profit Organizations",
+  "industry_type_ar": "الجمعيات والمنظمات غير الربحية",
+  "sequence": 23,
+  "regulators": [
+   "NCNP (National Center for Non-Profit Sector)"
+  ]
+ }
+]
