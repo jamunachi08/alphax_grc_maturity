@@ -1,0 +1,302 @@
+[
+ {
+  "regulator_name": "Ministry of Commerce",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة التجارة",
+  "is_general": 1
+ },
+ {
+  "regulator_name": "ZATCA (Zakat, Tax and Customs Authority)",
+  "abbreviation": "ZATCA",
+  "regulator_name_ar": "هيئة الزكاة والضريبة والجمارك",
+  "is_general": 1
+ },
+ {
+  "regulator_name": "SDAIA (Saudi Data and AI Authority)",
+  "abbreviation": "SDAIA",
+  "regulator_name_ar": "الهيئة السعودية للبيانات والذكاء الاصطناعي (سدايا)",
+  "is_general": 1
+ },
+ {
+  "regulator_name": "NCA (National Cybersecurity Authority)",
+  "abbreviation": "NCA",
+  "regulator_name_ar": "الهيئة الوطنية للأمن السيبراني",
+  "is_general": 1
+ },
+ {
+  "regulator_name": "HRSD (Ministry of Human Resources and Social Development)",
+  "abbreviation": "HRSD",
+  "regulator_name_ar": "وزارة الموارد البشرية والتنمية الاجتماعية",
+  "is_general": 1
+ },
+ {
+  "regulator_name": "SAMA (Saudi Central Bank)",
+  "abbreviation": "SAMA",
+  "regulator_name_ar": "البنك المركزي السعودي (ساما)",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "CMA (Capital Market Authority)",
+  "abbreviation": "CMA",
+  "regulator_name_ar": "هيئة السوق المالية",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Insurance Authority",
+  "abbreviation": "",
+  "regulator_name_ar": "هيئة التأمين",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "SOCPA (Saudi Organization for Chartered and Professional Accountants)",
+  "abbreviation": "SOCPA",
+  "regulator_name_ar": "الهيئة السعودية للمراجعين والمحاسبين",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "GOSI (General Organization for Social Insurance)",
+  "abbreviation": "GOSI",
+  "regulator_name_ar": "المؤسسة العامة للتأمينات الاجتماعية",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "TVTC (Technical and Vocational Training Corporation)",
+  "abbreviation": "TVTC",
+  "regulator_name_ar": "المؤسسة العامة للتدريب التقني والمهني",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "MCIT (Ministry of Communications and Information Technology)",
+  "abbreviation": "MCIT",
+  "regulator_name_ar": "وزارة الاتصالات وتقنية المعلومات",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "CST (Communications, Space and Technology Commission)",
+  "abbreviation": "CST",
+  "regulator_name_ar": "هيئة الاتصالات والفضاء والتقنية",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "DGA (Digital Government Authority)",
+  "abbreviation": "DGA",
+  "regulator_name_ar": "هيئة الحكومة الرقمية",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Transport General Authority",
+  "abbreviation": "",
+  "regulator_name_ar": "الهيئة العامة للنقل",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "GACA (General Authority of Civil Aviation)",
+  "abbreviation": "GACA",
+  "regulator_name_ar": "الهيئة العامة للطيران المدني",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Mawani (Saudi Ports Authority)",
+  "abbreviation": "Mawani",
+  "regulator_name_ar": "الهيئة العامة للموانئ (موانئ)",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "GAMR (General Authority of Media Regulation)",
+  "abbreviation": "GAMR",
+  "regulator_name_ar": "الهيئة العامة لتنظيم الإعلام",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "General Entertainment Authority",
+  "abbreviation": "",
+  "regulator_name_ar": "الهيئة العامة للترفيه",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Ministry of Culture",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة الثقافة",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Saudi Conventions and Exhibitions General Authority",
+  "abbreviation": "",
+  "regulator_name_ar": "الهيئة العامة للمعارض والمؤتمرات",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Ministry of Tourism",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة السياحة",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Ministry of Municipalities and Housing (Balady)",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة البلديات والإسكان (بلدي)",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "SFDA (Saudi Food and Drug Authority)",
+  "abbreviation": "SFDA",
+  "regulator_name_ar": "الهيئة العامة للغذاء والدواء",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Civil Defense",
+  "abbreviation": "",
+  "regulator_name_ar": "الدفاع المدني",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Ministry of Health",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة الصحة",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "SCFHS (Saudi Commission for Health Specialties)",
+  "abbreviation": "SCFHS",
+  "regulator_name_ar": "الهيئة السعودية للتخصصات الصحية",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "CBAHI (Central Board for Accreditation of Healthcare Institutions)",
+  "abbreviation": "CBAHI",
+  "regulator_name_ar": "المركز السعودي لاعتماد المنشآت الصحية",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Public Health Authority (Weqaya)",
+  "abbreviation": "",
+  "regulator_name_ar": "هيئة الصحة العامة (وقاية)",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "SASO (Saudi Standards, Metrology and Quality Org.)",
+  "abbreviation": "SASO",
+  "regulator_name_ar": "الهيئة السعودية للمواصفات والمقاييس والجودة",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Ministry of Justice",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة العدل",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Saudi Council of Engineers",
+  "abbreviation": "",
+  "regulator_name_ar": "الهيئة السعودية للمهندسين",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Ministry of Municipalities and Housing",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة البلديات والإسكان",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "REGA (Real Estate General Authority)",
+  "abbreviation": "REGA",
+  "regulator_name_ar": "الهيئة العامة للعقار",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Saudi Contractors Authority",
+  "abbreviation": "",
+  "regulator_name_ar": "الهيئة السعودية للمقاولين",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Ministry of Education",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة التعليم",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "ETEC (Education and Training Evaluation Commission)",
+  "abbreviation": "ETEC",
+  "regulator_name_ar": "هيئة تقويم التعليم والتدريب",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Ministry of Industry and Mineral Resources",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة الصناعة والثروة المعدنية",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "NCEC (National Center for Environmental Compliance)",
+  "abbreviation": "NCEC",
+  "regulator_name_ar": "المركز الوطني للرقابة على الالتزام البيئي",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Ministry of Energy",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة الطاقة",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "SERA (Saudi Electricity Regulatory Authority)",
+  "abbreviation": "SERA",
+  "regulator_name_ar": "الهيئة السعودية لتنظيم الكهرباء",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Ministry of Environment, Water and Agriculture",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة البيئة والمياه والزراعة",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Nazaha (Oversight and Anti-Corruption Authority)",
+  "abbreviation": "Nazaha",
+  "regulator_name_ar": "هيئة الرقابة ومكافحة الفساد (نزاهة)",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Ministry of Interior",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة الداخلية",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "HCIS (High Commission for Industrial Security)",
+  "abbreviation": "HCIS",
+  "regulator_name_ar": "الهيئة العليا للأمن الصناعي",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Ministry of Finance",
+  "abbreviation": "",
+  "regulator_name_ar": "وزارة المالية",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "LCGPA (Local Content and Government Procurement Authority)",
+  "abbreviation": "LCGPA",
+  "regulator_name_ar": "هيئة المحتوى المحلي والمشتريات الحكومية",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "Centre for Expenditure Efficiency",
+  "abbreviation": "",
+  "regulator_name_ar": "مركز تحقيق كفاءة الإنفاق",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "NCNP (National Center for Non-Profit Sector)",
+  "abbreviation": "NCNP",
+  "regulator_name_ar": "المركز الوطني لتنمية القطاع غير الربحي",
+  "is_general": 0
+ },
+ {
+  "regulator_name": "MISA (Ministry of Investment)",
+  "abbreviation": "MISA",
+  "regulator_name_ar": "وزارة الاستثمار",
+  "is_general": 0
+ }
+]

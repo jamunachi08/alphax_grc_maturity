@@ -1,0 +1,25 @@
+[
+ {
+  "brand_name": "IRSAA",
+  "route_slug": "irsaa",
+  "theme": "AlphaX Navy",
+  "company_name": "IRSAA Business Solution",
+  "app_title": "GRC Maturity Assessment",
+  "app_title_ar": "تقييم نضج الحوكمة والمخاطر والالتزام",
+  "support_email": "grc.audit.assessment@irsaa.com",
+  "website": "https://irsaa.com",
+  "powered_by_text": "Powered by AlphaX · IRSAA Business Solution",
+  "intro_text": "<p>This survey is a standard tool for an initial Governance, Risk, and Compliance (GRC) assessment. It helps your organization see its strengths and weaknesses across governance, risk, and compliance, and shows where advisory support may help if gaps appear.</p>",
+  "intro_text_ar": "<p>هذا الاستبيان أداة قياسية للتقييم الأولي للحوكمة والمخاطر والالتزام. يساعد منشأتك على معرفة نقاط القوة والضعف في الحوكمة والمخاطر والالتزام، ويوضح أين يمكن أن يفيد الدعم الاستشاري عند وجود فجوات.</p>",
+  "footer_text": "© IRSAA Business Solution · grc.audit.assessment@irsaa.com",
+  "footer_text_ar": "© إرساء لحلول الأعمال · grc.audit.assessment@irsaa.com",
+  "report_disclaimer": "This self-assessment reflects the answers provided by the organization and has not been independently verified. It is an initial indicator, not an audit opinion.",
+  "report_disclaimer_ar": "يعكس هذا التقييم الذاتي إجابات المنشأة ولم يتم التحقق منه بشكل مستقل. وهو مؤشر أولي وليس رأيًا مراجعًا.",
+  "notify": [
+   {
+    "email": "grc.audit.assessment@irsaa.com",
+    "send_on": "Submit and Review"
+   }
+  ]
+ }
+]

@@ -1,0 +1,65 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Applicability Rule",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-08 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "dimension",
+   "fieldtype": "Select",
+   "label": "Dimension",
+   "options": "Industry Type\nIndustry Sector\nCompany Nationality\nLicense Type\nRegulator\nLegal Form\nEntity Size",
+   "reqd": 1,
+   "in_list_view": 1,
+   "columns": 2
+  },
+  {
+   "fieldname": "rule_type",
+   "fieldtype": "Select",
+   "label": "Rule",
+   "options": "Include\nExclude",
+   "default": "Include",
+   "reqd": 1,
+   "in_list_view": 1,
+   "columns": 1
+  },
+  {
+   "fieldname": "value_doctype",
+   "fieldtype": "Link",
+   "label": "Value DocType",
+   "options": "DocType",
+   "hidden": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Dynamic Link",
+   "label": "Value",
+   "options": "value_doctype",
+   "reqd": 1,
+   "in_list_view": 1,
+   "columns": 5
+  }
+ ],
+ "field_order": [
+  "dimension",
+  "rule_type",
+  "value_doctype",
+  "value"
+ ],
+ "permissions": [],
+ "istable": 1,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "editable_grid": 1,
+ "track_changes": 0
+}

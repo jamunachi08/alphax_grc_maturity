@@ -1,0 +1,218 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Question",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-08 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "sequence",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "question_code",
+   "fieldtype": "Data",
+   "label": "Question Code",
+   "reqd": 1,
+   "unique": 1,
+   "in_list_view": 1,
+   "description": "e.g. Q12 or Q12-SAMA"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Link",
+   "label": "Section",
+   "options": "GRC Maturity Section",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "topic",
+   "fieldtype": "Link",
+   "label": "Topic",
+   "options": "GRC Maturity Topic",
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sequence",
+   "fieldtype": "Int",
+   "label": "Sequence",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "scope",
+   "fieldtype": "Select",
+   "label": "Scope",
+   "options": "Global\nConditional",
+   "default": "Global",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "description": "Global: asked of everyone (Exclude rules still apply). Conditional: asked only when the Include rules match."
+  },
+  {
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled",
+   "default": "1"
+  },
+  {
+   "fieldname": "is_mandatory",
+   "fieldtype": "Check",
+   "label": "Mandatory",
+   "default": "1"
+  },
+  {
+   "fieldname": "allow_na",
+   "fieldtype": "Check",
+   "label": "Allow N/A",
+   "default": "1"
+  },
+  {
+   "fieldname": "sb_text",
+   "fieldtype": "Section Break",
+   "label": "Question"
+  },
+  {
+   "fieldname": "question_text",
+   "fieldtype": "Small Text",
+   "label": "Question Text",
+   "reqd": 1
+  },
+  {
+   "fieldname": "question_text_ar",
+   "fieldtype": "Small Text",
+   "label": "Question Text (Arabic)"
+  },
+  {
+   "fieldname": "guidance",
+   "fieldtype": "Small Text",
+   "label": "Guidance for Respondent"
+  },
+  {
+   "fieldname": "framework_refs",
+   "fieldtype": "Data",
+   "label": "Framework References",
+   "description": "e.g. NCA ECC 1-2, SAMA CSF 3.1.1, PDPL Art. 19"
+  },
+  {
+   "fieldname": "sb_opts",
+   "fieldtype": "Section Break",
+   "label": "Answer Options"
+  },
+  {
+   "fieldname": "options",
+   "fieldtype": "Table",
+   "label": "Options",
+   "options": "GRC Maturity Question Option",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sb_scope",
+   "fieldtype": "Section Break",
+   "label": "Applicability",
+   "collapsible": 0
+  },
+  {
+   "fieldname": "rules",
+   "fieldtype": "Table",
+   "label": "Applicability Rules",
+   "options": "GRC Maturity Applicability Rule",
+   "description": "Within a dimension, any Include matches (OR). Across dimensions, all must match (AND). Any matching Exclude removes the question."
+  },
+  {
+   "fieldname": "replaces_question",
+   "fieldtype": "Link",
+   "label": "Replaces Question",
+   "options": "GRC Maturity Question",
+   "description": "When this question applies, the linked (usually global) question is dropped. Use it for a sector-specific version of a global question."
+  },
+  {
+   "fieldname": "sb_w",
+   "fieldtype": "Section Break",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "default_weight",
+   "fieldtype": "Float",
+   "label": "Default Weight",
+   "default": "1",
+   "precision": "2",
+   "description": "Used when no Weightage Profile (sector, industry, ... or global) sets a weight for this question."
+  }
+ ],
+ "field_order": [
+  "question_code",
+  "section",
+  "topic",
+  "cb1",
+  "sequence",
+  "scope",
+  "enabled",
+  "is_mandatory",
+  "allow_na",
+  "sb_text",
+  "question_text",
+  "question_text_ar",
+  "guidance",
+  "framework_refs",
+  "sb_opts",
+  "options",
+  "sb_scope",
+  "rules",
+  "replaces_question",
+  "sb_w",
+  "default_weight"
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Consultant",
+   "read": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1
+  }
+ ],
+ "istable": 0,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "track_changes": 1,
+ "autoname": "field:question_code",
+ "naming_rule": "By fieldname",
+ "title_field": "question_code",
+ "show_title_field_in_link": 1,
+ "search_fields": "section,question_text"
+}

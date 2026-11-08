@@ -1,0 +1,129 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Industry Sector",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-08 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "sequence",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "industry_type",
+   "fieldtype": "Link",
+   "label": "Industry Type",
+   "options": "GRC Maturity Industry Type",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "sector_name",
+   "fieldtype": "Data",
+   "label": "Sector",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "sector_name_ar",
+   "fieldtype": "Data",
+   "label": "Sector (Arabic)"
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sequence",
+   "fieldtype": "Int",
+   "label": "Sequence"
+  },
+  {
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled",
+   "default": "1"
+  },
+  {
+   "fieldname": "is_other",
+   "fieldtype": "Check",
+   "label": "Is 'Other'",
+   "description": "Asks the respondent to name the sector"
+  },
+  {
+   "fieldname": "sb_regs",
+   "fieldtype": "Section Break",
+   "label": "Sector Regulators"
+  },
+  {
+   "fieldname": "has_own_regulators",
+   "fieldtype": "Check",
+   "label": "Sector Has Its Own Regulator List",
+   "description": "When ticked, this list replaces the industry list (an empty list means no industry regulators)."
+  },
+  {
+   "fieldname": "regulators",
+   "fieldtype": "Table",
+   "label": "Regulators",
+   "options": "GRC Maturity Regulator Link",
+   "depends_on": "has_own_regulators"
+  }
+ ],
+ "field_order": [
+  "industry_type",
+  "sector_name",
+  "sector_name_ar",
+  "cb1",
+  "sequence",
+  "enabled",
+  "is_other",
+  "sb_regs",
+  "has_own_regulators",
+  "regulators"
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Consultant",
+   "read": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1
+  }
+ ],
+ "istable": 0,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "track_changes": 1,
+ "title_field": "sector_name",
+ "show_title_field_in_link": 1,
+ "search_fields": "industry_type,sector_name"
+}

@@ -1,0 +1,45 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Brand Notify",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-08 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1,
+   "in_list_view": 1,
+   "columns": 6
+  },
+  {
+   "fieldname": "send_on",
+   "fieldtype": "Select",
+   "label": "Send On",
+   "options": "Submit\nSubmit and Review",
+   "default": "Submit",
+   "in_list_view": 1,
+   "columns": 2
+  }
+ ],
+ "field_order": [
+  "email",
+  "send_on"
+ ],
+ "permissions": [],
+ "istable": 1,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "editable_grid": 1,
+ "track_changes": 0
+}

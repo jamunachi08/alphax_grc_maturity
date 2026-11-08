@@ -1,0 +1,99 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Band",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-08 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "band_key",
+   "fieldtype": "Data",
+   "label": "Key",
+   "reqd": 1,
+   "in_list_view": 1,
+   "columns": 1,
+   "description": "critical / low / medium / high / leading"
+  },
+  {
+   "fieldname": "band_label",
+   "fieldtype": "Data",
+   "label": "Label",
+   "reqd": 1,
+   "in_list_view": 1,
+   "columns": 2
+  },
+  {
+   "fieldname": "band_label_ar",
+   "fieldtype": "Data",
+   "label": "Label (Arabic)",
+   "in_list_view": 1,
+   "columns": 1
+  },
+  {
+   "fieldname": "min_pct",
+   "fieldtype": "Float",
+   "label": "From %",
+   "reqd": 1,
+   "in_list_view": 1,
+   "columns": 1
+  },
+  {
+   "fieldname": "max_pct",
+   "fieldtype": "Float",
+   "label": "To %",
+   "reqd": 1,
+   "in_list_view": 1,
+   "columns": 1
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "Color",
+   "in_list_view": 1,
+   "columns": 1
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Data",
+   "label": "Icon / Emoji",
+   "columns": 1
+  },
+  {
+   "fieldname": "interpretation",
+   "fieldtype": "Small Text",
+   "label": "Interpretation",
+   "in_list_view": 1,
+   "columns": 3
+  },
+  {
+   "fieldname": "interpretation_ar",
+   "fieldtype": "Small Text",
+   "label": "Interpretation (Arabic)"
+  }
+ ],
+ "field_order": [
+  "band_key",
+  "band_label",
+  "band_label_ar",
+  "min_pct",
+  "max_pct",
+  "color",
+  "icon",
+  "interpretation",
+  "interpretation_ar"
+ ],
+ "permissions": [],
+ "istable": 1,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "editable_grid": 1,
+ "track_changes": 0
+}

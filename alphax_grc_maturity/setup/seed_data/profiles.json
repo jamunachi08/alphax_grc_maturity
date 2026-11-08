@@ -1,0 +1,103 @@
+[
+ {
+  "profile_name": "Global",
+  "is_global": 1,
+  "enabled": 1,
+  "lines": [
+   {
+    "applies_to": "Section",
+    "section": "awareness",
+    "weight": 1
+   },
+   {
+    "applies_to": "Section",
+    "section": "governance",
+    "weight": 1
+   },
+   {
+    "applies_to": "Section",
+    "section": "risk",
+    "weight": 1
+   },
+   {
+    "applies_to": "Section",
+    "section": "compliance",
+    "weight": 1
+   }
+  ]
+ },
+ {
+  "profile_name": "Financial Services (sample)",
+  "enabled": 0,
+  "industry_type": "Financial Services",
+  "lines": [
+   {
+    "applies_to": "Section",
+    "section": "compliance",
+    "weight": 1.5
+   },
+   {
+    "applies_to": "Section",
+    "section": "risk",
+    "weight": 1.25
+   }
+  ]
+ },
+ {
+  "profile_name": "Healthcare (sample)",
+  "enabled": 0,
+  "industry_type": "Healthcare and Medical Services",
+  "lines": [
+   {
+    "applies_to": "Question",
+    "question": "Q40",
+    "weight": 2
+   },
+   {
+    "applies_to": "Question",
+    "question": "Q26",
+    "weight": 1.5
+   }
+  ]
+ },
+ {
+  "profile_name": "Banking sector (sample)",
+  "enabled": 0,
+  "industry_type": "Financial Services",
+  "industry_sector": "Financial Services | Banking",
+  "lines": [
+   {
+    "applies_to": "Question",
+    "question": "Q43",
+    "weight": 2
+   },
+   {
+    "applies_to": "Question",
+    "question": "Q29",
+    "weight": 1.5
+   },
+   {
+    "applies_to": "Topic",
+    "topic": "risk | Financial and fraud",
+    "weight": 1.5
+   }
+  ]
+ },
+ {
+  "profile_name": "Foreign-owned (sample)",
+  "enabled": 0,
+  "company_nationality": "100% foreign working with a Saudi company as a partner",
+  "lines": [
+   {
+    "applies_to": "Question",
+    "question": "Q34",
+    "weight": 1.5
+   },
+   {
+    "applies_to": "Question",
+    "question": "Q25",
+    "weight": 1.5
+   }
+  ]
+ }
+]

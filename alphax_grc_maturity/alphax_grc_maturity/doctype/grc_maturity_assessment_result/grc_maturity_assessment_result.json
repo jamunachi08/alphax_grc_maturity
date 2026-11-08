@@ -1,0 +1,128 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Assessment Result",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-08 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "result_level",
+   "fieldtype": "Select",
+   "label": "Level",
+   "options": "Section\nTopic",
+   "in_list_view": 1,
+   "columns": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Link",
+   "label": "Section",
+   "options": "GRC Maturity Section",
+   "read_only": 1
+  },
+  {
+   "fieldname": "topic",
+   "fieldtype": "Link",
+   "label": "Topic",
+   "options": "GRC Maturity Topic",
+   "read_only": 1
+  },
+  {
+   "fieldname": "label",
+   "fieldtype": "Data",
+   "label": "Label",
+   "in_list_view": 1,
+   "columns": 3,
+   "read_only": 1
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight",
+   "read_only": 1,
+   "precision": "2"
+  },
+  {
+   "fieldname": "earned",
+   "fieldtype": "Float",
+   "label": "Earned",
+   "in_list_view": 1,
+   "columns": 1,
+   "read_only": 1,
+   "precision": "2"
+  },
+  {
+   "fieldname": "possible",
+   "fieldtype": "Float",
+   "label": "Possible",
+   "in_list_view": 1,
+   "columns": 1,
+   "read_only": 1,
+   "precision": "2"
+  },
+  {
+   "fieldname": "percentage",
+   "fieldtype": "Percent",
+   "label": "Score %",
+   "in_list_view": 1,
+   "columns": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "band",
+   "fieldtype": "Data",
+   "label": "Band",
+   "in_list_view": 1,
+   "columns": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "band_color",
+   "fieldtype": "Data",
+   "label": "Band Color",
+   "read_only": 1,
+   "hidden": 1
+  },
+  {
+   "fieldname": "answered",
+   "fieldtype": "Int",
+   "label": "Answered",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Int",
+   "label": "Total",
+   "read_only": 1
+  }
+ ],
+ "field_order": [
+  "result_level",
+  "section",
+  "topic",
+  "label",
+  "weight",
+  "earned",
+  "possible",
+  "percentage",
+  "band",
+  "band_color",
+  "answered",
+  "total"
+ ],
+ "permissions": [],
+ "istable": 1,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "editable_grid": 1,
+ "track_changes": 0
+}

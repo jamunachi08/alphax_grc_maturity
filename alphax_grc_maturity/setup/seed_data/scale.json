@@ -1,0 +1,30 @@
+[
+ {
+  "option_value": "A",
+  "option_label": "Minimal / Ad-hoc",
+  "option_label_ar": "أدنى / غير منظم",
+  "points": 25,
+  "level_rank": 1
+ },
+ {
+  "option_value": "B",
+  "option_label": "Foundational / Basic",
+  "option_label_ar": "تأسيسي / أساسي",
+  "points": 50,
+  "level_rank": 2
+ },
+ {
+  "option_value": "C",
+  "option_label": "Established / Systematic",
+  "option_label_ar": "راسخ / منهجي",
+  "points": 75,
+  "level_rank": 3
+ },
+ {
+  "option_value": "D",
+  "option_label": "Leading / Best-In-Class",
+  "option_label_ar": "رائد / الأفضل في فئته",
+  "points": 100,
+  "level_rank": 4
+ }
+]
