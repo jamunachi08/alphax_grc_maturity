@@ -1,0 +1,80 @@
+[
+ {
+  "section": "governance",
+  "topic_label": "Structure and authority",
+  "topic_label_ar": "الهيكل والصلاحيات",
+  "sequence": 1
+ },
+ {
+  "section": "governance",
+  "topic_label": "Strategy and oversight",
+  "topic_label_ar": "الاستراتيجية والإشراف",
+  "sequence": 2
+ },
+ {
+  "section": "governance",
+  "topic_label": "Ethics and integrity",
+  "topic_label_ar": "الأخلاقيات والنزاهة",
+  "sequence": 3
+ },
+ {
+  "section": "governance",
+  "topic_label": "Policies, controls, and assurance",
+  "topic_label_ar": "السياسات والضوابط والتأكيد",
+  "sequence": 4
+ },
+ {
+  "section": "risk",
+  "topic_label": "Risk framework and culture",
+  "topic_label_ar": "إطار المخاطر وثقافتها",
+  "sequence": 5
+ },
+ {
+  "section": "risk",
+  "topic_label": "Strategic and emerging risk",
+  "topic_label_ar": "المخاطر الاستراتيجية والناشئة",
+  "sequence": 6
+ },
+ {
+  "section": "risk",
+  "topic_label": "Operational and resilience",
+  "topic_label_ar": "المخاطر التشغيلية والمرونة",
+  "sequence": 7
+ },
+ {
+  "section": "risk",
+  "topic_label": "Technology and data",
+  "topic_label_ar": "التقنية والبيانات",
+  "sequence": 8
+ },
+ {
+  "section": "risk",
+  "topic_label": "Financial and fraud",
+  "topic_label_ar": "المخاطر المالية والاحتيال",
+  "sequence": 9
+ },
+ {
+  "section": "compliance",
+  "topic_label": "Regulatory framework",
+  "topic_label_ar": "الإطار التنظيمي",
+  "sequence": 10
+ },
+ {
+  "section": "compliance",
+  "topic_label": "Monitoring and assurance",
+  "topic_label_ar": "الرقابة والتأكيد",
+  "sequence": 11
+ },
+ {
+  "section": "compliance",
+  "topic_label": "Key compliance areas",
+  "topic_label_ar": "مجالات الالتزام الرئيسية",
+  "sequence": 12
+ },
+ {
+  "section": "compliance",
+  "topic_label": "Function and culture",
+  "topic_label_ar": "الوظيفة والثقافة",
+  "sequence": 13
+ }
+]

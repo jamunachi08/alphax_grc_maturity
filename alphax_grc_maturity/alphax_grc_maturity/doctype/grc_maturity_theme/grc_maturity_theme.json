@@ -1,0 +1,268 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Theme",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-08 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "theme_name",
+   "fieldtype": "Data",
+   "label": "Theme Name",
+   "reqd": 1,
+   "unique": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "mode",
+   "fieldtype": "Select",
+   "label": "Color Mode",
+   "options": "Light\nDark\nAuto",
+   "default": "Light",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "layout_style",
+   "fieldtype": "Select",
+   "label": "Layout Style",
+   "options": "Cards\nWizard\nCompact",
+   "default": "Cards",
+   "in_list_view": 1,
+   "description": "Cards: all sections on one page. Wizard: one section per step. Compact: dense rows for experienced users."
+  },
+  {
+   "fieldname": "cb0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "font_family",
+   "fieldtype": "Data",
+   "label": "Font Family",
+   "default": "'Segoe UI', Roboto, system-ui, -apple-system, sans-serif"
+  },
+  {
+   "fieldname": "arabic_font_family",
+   "fieldtype": "Data",
+   "label": "Arabic Font Family",
+   "default": "'Segoe UI', Tahoma, 'Noto Kufi Arabic', sans-serif"
+  },
+  {
+   "fieldname": "google_font",
+   "fieldtype": "Data",
+   "label": "Google Font Name",
+   "description": "Optional, e.g. Inter or Tajawal. Loaded from fonts.googleapis.com"
+  },
+  {
+   "fieldname": "radius",
+   "fieldtype": "Int",
+   "label": "Corner Radius (px)",
+   "default": "16"
+  },
+  {
+   "fieldname": "density",
+   "fieldtype": "Select",
+   "label": "Density",
+   "options": "Comfortable\nCompact",
+   "default": "Comfortable"
+  },
+  {
+   "fieldname": "sb_colors",
+   "fieldtype": "Section Break",
+   "label": "Colors (light)"
+  },
+  {
+   "fieldname": "primary_color",
+   "fieldtype": "Color",
+   "label": "Primary",
+   "default": "#1e3a5f"
+  },
+  {
+   "fieldname": "primary_dark_color",
+   "fieldtype": "Color",
+   "label": "Primary (hover)",
+   "default": "#143049"
+  },
+  {
+   "fieldname": "accent_color",
+   "fieldtype": "Color",
+   "label": "Accent",
+   "default": "#1e7b4c"
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "background_color",
+   "fieldtype": "Color",
+   "label": "Page Background",
+   "default": "#f4f7fc"
+  },
+  {
+   "fieldname": "surface_color",
+   "fieldtype": "Color",
+   "label": "Card Surface",
+   "default": "#ffffff"
+  },
+  {
+   "fieldname": "soft_color",
+   "fieldtype": "Color",
+   "label": "Soft Fill",
+   "default": "#eef3fa"
+  },
+  {
+   "fieldname": "cb2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "text_color",
+   "fieldtype": "Color",
+   "label": "Text",
+   "default": "#1e2a3a"
+  },
+  {
+   "fieldname": "muted_color",
+   "fieldtype": "Color",
+   "label": "Muted Text",
+   "default": "#5a6f87"
+  },
+  {
+   "fieldname": "border_color",
+   "fieldtype": "Color",
+   "label": "Border",
+   "default": "#e7edf4"
+  },
+  {
+   "fieldname": "sb_dark",
+   "fieldtype": "Section Break",
+   "label": "Colors (dark)",
+   "depends_on": "eval:doc.mode!='Light'"
+  },
+  {
+   "fieldname": "dark_background_color",
+   "fieldtype": "Color",
+   "label": "Page Background",
+   "default": "#0f1722"
+  },
+  {
+   "fieldname": "dark_surface_color",
+   "fieldtype": "Color",
+   "label": "Card Surface",
+   "default": "#172233"
+  },
+  {
+   "fieldname": "cb3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dark_text_color",
+   "fieldtype": "Color",
+   "label": "Text",
+   "default": "#e6edf6"
+  },
+  {
+   "fieldname": "dark_muted_color",
+   "fieldtype": "Color",
+   "label": "Muted Text",
+   "default": "#93a5bb"
+  },
+  {
+   "fieldname": "dark_border_color",
+   "fieldtype": "Color",
+   "label": "Border",
+   "default": "#26354a"
+  },
+  {
+   "fieldname": "sb_css",
+   "fieldtype": "Section Break",
+   "label": "Custom CSS",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "custom_css",
+   "fieldtype": "Code",
+   "label": "Custom CSS",
+   "options": "CSS",
+   "description": "Appended after the theme variables. Scope rules under #axg-app."
+  }
+ ],
+ "field_order": [
+  "theme_name",
+  "mode",
+  "layout_style",
+  "cb0",
+  "font_family",
+  "arabic_font_family",
+  "google_font",
+  "radius",
+  "density",
+  "sb_colors",
+  "primary_color",
+  "primary_dark_color",
+  "accent_color",
+  "cb1",
+  "background_color",
+  "surface_color",
+  "soft_color",
+  "cb2",
+  "text_color",
+  "muted_color",
+  "border_color",
+  "sb_dark",
+  "dark_background_color",
+  "dark_surface_color",
+  "cb3",
+  "dark_text_color",
+  "dark_muted_color",
+  "dark_border_color",
+  "sb_css",
+  "custom_css"
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Consultant",
+   "read": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1
+  }
+ ],
+ "istable": 0,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "track_changes": 1,
+ "autoname": "field:theme_name",
+ "naming_rule": "By fieldname"
+}

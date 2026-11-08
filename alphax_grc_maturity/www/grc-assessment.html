@@ -1,0 +1,22 @@
+{% extends "templates/base.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% block head_include %}
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+{% if google_font %}<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="{{ google_font }}">{% endif %}
+<link rel="stylesheet" href="/assets/alphax_grc_maturity/css/grc_assessment.css?v={{ asset_v }}">
+<style id="axg-theme">{{ theme_css }}</style>
+{% endblock %}
+{% block navbar %}{% endblock %}
+{% block banner %}{% endblock %}
+{% block content %}
+<div id="axg-app" class="axg" dir="{{ lang_dir }}" lang="{{ html_lang }}">
+	<noscript>This assessment needs JavaScript.</noscript>
+	<div class="axg-loading">…</div>
+</div>
+<script>window.AXG_BOOT = {{ boot_json }};</script>
+{% endblock %}
+{% block footer %}{% endblock %}
+{% block script %}
+<script src="/assets/alphax_grc_maturity/js/grc_assessment.js?v={{ asset_v }}"></script>
+{% endblock %}

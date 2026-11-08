@@ -1,0 +1,170 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Assessment Answer",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-08 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "question",
+   "fieldtype": "Link",
+   "label": "Question",
+   "options": "GRC Maturity Question",
+   "reqd": 1,
+   "in_list_view": 1,
+   "columns": 2
+  },
+  {
+   "fieldname": "question_code",
+   "fieldtype": "Data",
+   "label": "Code",
+   "read_only": 1,
+   "in_list_view": 1,
+   "columns": 1
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Link",
+   "label": "Section",
+   "options": "GRC Maturity Section",
+   "read_only": 1
+  },
+  {
+   "fieldname": "topic",
+   "fieldtype": "Link",
+   "label": "Topic",
+   "options": "GRC Maturity Topic",
+   "read_only": 1
+  },
+  {
+   "fieldname": "selected_value",
+   "fieldtype": "Data",
+   "label": "Answer",
+   "in_list_view": 1,
+   "columns": 1,
+   "description": "A, B, C, D or NA"
+  },
+  {
+   "fieldname": "selected_label",
+   "fieldtype": "Data",
+   "label": "Answer Label",
+   "read_only": 1,
+   "in_list_view": 1,
+   "columns": 2
+  },
+  {
+   "fieldname": "points",
+   "fieldtype": "Float",
+   "label": "Points",
+   "read_only": 1,
+   "in_list_view": 1,
+   "columns": 1
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Question Weight",
+   "read_only": 1,
+   "in_list_view": 1,
+   "columns": 1,
+   "precision": "4",
+   "description": "Topic weight × question weight"
+  },
+  {
+   "fieldname": "section_weight",
+   "fieldtype": "Float",
+   "label": "Section Weight",
+   "read_only": 1,
+   "precision": "4"
+  },
+  {
+   "fieldname": "max_points",
+   "fieldtype": "Float",
+   "label": "Max Points",
+   "read_only": 1
+  },
+  {
+   "fieldname": "weighted_points",
+   "fieldtype": "Float",
+   "label": "Weighted Points",
+   "read_only": 1,
+   "precision": "2"
+  },
+  {
+   "fieldname": "weighted_max",
+   "fieldtype": "Float",
+   "label": "Weighted Max",
+   "read_only": 1,
+   "precision": "2"
+  },
+  {
+   "fieldname": "is_na",
+   "fieldtype": "Check",
+   "label": "N/A",
+   "read_only": 1
+  },
+  {
+   "fieldname": "weight_source",
+   "fieldtype": "Data",
+   "label": "Weight Source",
+   "read_only": 1
+  },
+  {
+   "fieldname": "question_text",
+   "fieldtype": "Small Text",
+   "label": "Question Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "selected_description",
+   "fieldtype": "Small Text",
+   "label": "Current State",
+   "read_only": 1
+  },
+  {
+   "fieldname": "target_description",
+   "fieldtype": "Small Text",
+   "label": "Target / Recommendation",
+   "read_only": 1
+  },
+  {
+   "fieldname": "comment",
+   "fieldtype": "Small Text",
+   "label": "Respondent Comment"
+  }
+ ],
+ "field_order": [
+  "question",
+  "question_code",
+  "section",
+  "topic",
+  "selected_value",
+  "selected_label",
+  "points",
+  "weight",
+  "section_weight",
+  "max_points",
+  "weighted_points",
+  "weighted_max",
+  "is_na",
+  "weight_source",
+  "question_text",
+  "selected_description",
+  "target_description",
+  "comment"
+ ],
+ "permissions": [],
+ "istable": 1,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "editable_grid": 1,
+ "track_changes": 0
+}

@@ -1,0 +1,292 @@
+[
+ {
+  "question_code": "QX-FIN-01",
+  "section": "compliance",
+  "topic": "compliance | Regulatory framework",
+  "sequence": 345,
+  "scope": "Conditional",
+  "question_text": "How are prudential and regulatory returns to SAMA, CMA or the Insurance Authority prepared, reviewed and submitted?",
+  "framework_refs": "SAMA / CMA / IA reporting rules",
+  "rules": [
+   {
+    "dimension": "Industry Type",
+    "rule_type": "Include",
+    "value": "Financial Services"
+   }
+  ],
+  "options": [
+   {
+    "option_value": "A",
+    "option_label": "Minimal / Ad-hoc",
+    "description": "Returns are prepared ad hoc by whoever is available."
+   },
+   {
+    "option_value": "B",
+    "option_label": "Foundational / Basic",
+    "description": "A calendar exists, but preparation and review are manual and inconsistent."
+   },
+   {
+    "option_value": "C",
+    "option_label": "Established / Systematic",
+    "description": "An owner, a calendar, maker-checker review and a submission log exist for every return."
+   },
+   {
+    "option_value": "D",
+    "option_label": "Leading / Best-In-Class",
+    "description": "Return accuracy is independently reviewed and resubmissions are trended."
+   }
+  ],
+  "enabled": 0
+ },
+ {
+  "question_code": "QX-FIN-02",
+  "section": "compliance",
+  "topic": "compliance | Key compliance areas",
+  "sequence": 435,
+  "scope": "Conditional",
+  "question_text": "How mature is the AML/CTF program (customer risk rating, transaction monitoring, suspicious transaction reporting)?",
+  "framework_refs": "AML Law and its implementing regulations; SAMA AML/CTF rules",
+  "rules": [
+   {
+    "dimension": "Industry Type",
+    "rule_type": "Include",
+    "value": "Financial Services"
+   },
+   {
+    "dimension": "Industry Type",
+    "rule_type": "Include",
+    "value": "E-commerce and Retail"
+   }
+  ],
+  "options": [
+   {
+    "option_value": "A",
+    "option_label": "Minimal / Ad-hoc",
+    "description": "No AML/CTF program exists."
+   },
+   {
+    "option_value": "B",
+    "option_label": "Foundational / Basic",
+    "description": "Policies exist; screening and monitoring are manual."
+   },
+   {
+    "option_value": "C",
+    "option_label": "Established / Systematic",
+    "description": "Risk rating, automated monitoring and a reporting process with an MLRO are in place."
+   },
+   {
+    "option_value": "D",
+    "option_label": "Leading / Best-In-Class",
+    "description": "The program is independently tested and model performance is tuned from results."
+   }
+  ],
+  "enabled": 0
+ },
+ {
+  "question_code": "QX-HC-01",
+  "section": "compliance",
+  "topic": "compliance | Key compliance areas",
+  "sequence": 405,
+  "scope": "Conditional",
+  "question_text": "How are patient data confidentiality and access to clinical records governed?",
+  "rules": [
+   {
+    "dimension": "Industry Type",
+    "rule_type": "Include",
+    "value": "Healthcare and Medical Services"
+   }
+  ],
+  "options": [
+   {
+    "option_value": "A",
+    "option_label": "Minimal / Ad-hoc",
+    "description": "Access to clinical records is not controlled."
+   },
+   {
+    "option_value": "B",
+    "option_label": "Foundational / Basic",
+    "description": "Policies exist, but access reviews are rare."
+   },
+   {
+    "option_value": "C",
+    "option_label": "Established / Systematic",
+    "description": "Role-based access, logging and periodic access reviews are in place."
+   },
+   {
+    "option_value": "D",
+    "option_label": "Leading / Best-In-Class",
+    "description": "Access and privacy controls are independently audited."
+   }
+  ],
+  "enabled": 0
+ },
+ {
+  "question_code": "QX-FOR-01",
+  "section": "compliance",
+  "topic": "compliance | Regulatory framework",
+  "sequence": 346,
+  "scope": "Conditional",
+  "question_text": "How are investment license obligations (renewals, reporting, local content and Saudization targets) tracked?",
+  "rules": [
+   {
+    "dimension": "Company Nationality",
+    "rule_type": "Include",
+    "value": "Not full local ownership, but it has a Saudi CR"
+   },
+   {
+    "dimension": "Company Nationality",
+    "rule_type": "Include",
+    "value": "Branch of a foreign entity with a Saudi CR and an investment license"
+   },
+   {
+    "dimension": "Company Nationality",
+    "rule_type": "Include",
+    "value": "100% foreign working with a Saudi company as a partner"
+   }
+  ],
+  "options": [
+   {
+    "option_value": "A",
+    "option_label": "Minimal / Ad-hoc",
+    "description": "Obligations are handled when reminders arrive."
+   },
+   {
+    "option_value": "B",
+    "option_label": "Foundational / Basic",
+    "description": "Key dates are tracked by one person."
+   },
+   {
+    "option_value": "C",
+    "option_label": "Established / Systematic",
+    "description": "An obligations register with owners and reminders is maintained."
+   },
+   {
+    "option_value": "D",
+    "option_label": "Leading / Best-In-Class",
+    "description": "Compliance with license obligations is independently reviewed."
+   }
+  ],
+  "enabled": 0
+ },
+ {
+  "question_code": "QX-CLD-01",
+  "section": "risk",
+  "topic": "risk | Technology and data",
+  "sequence": 295,
+  "scope": "Conditional",
+  "question_text": "How is compliance with cloud and data-center regulatory requirements (CST cloud framework, NCA CCC) managed?",
+  "rules": [
+   {
+    "dimension": "Industry Sector",
+    "rule_type": "Include",
+    "value": "Information Technology (IT) | Cloud computing and hosting"
+   },
+   {
+    "dimension": "Industry Sector",
+    "rule_type": "Include",
+    "value": "Information Technology (IT) | Data centers and infrastructure"
+   }
+  ],
+  "options": [
+   {
+    "option_value": "A",
+    "option_label": "Minimal / Ad-hoc",
+    "description": "Requirements have not been identified."
+   },
+   {
+    "option_value": "B",
+    "option_label": "Foundational / Basic",
+    "description": "Requirements are known; controls are partial."
+   },
+   {
+    "option_value": "C",
+    "option_label": "Established / Systematic",
+    "description": "Controls are mapped to the requirements and monitored."
+   },
+   {
+    "option_value": "D",
+    "option_label": "Leading / Best-In-Class",
+    "description": "Compliance is independently assessed."
+   }
+  ],
+  "enabled": 0
+ },
+ {
+  "question_code": "QX-JSC-01",
+  "section": "governance",
+  "topic": "governance | Strategy and oversight",
+  "sequence": 105,
+  "scope": "Conditional",
+  "question_text": "How are corporate governance disclosures for a listed company (board report, related-party transactions, governance report) managed?",
+  "framework_refs": "CMA Corporate Governance Regulations",
+  "rules": [
+   {
+    "dimension": "Legal Form",
+    "rule_type": "Include",
+    "value": "Joint Stock Company (Listed)"
+   }
+  ],
+  "options": [
+   {
+    "option_value": "A",
+    "option_label": "Minimal / Ad-hoc",
+    "description": "Disclosures are prepared at the last minute."
+   },
+   {
+    "option_value": "B",
+    "option_label": "Foundational / Basic",
+    "description": "A template exists; ownership is unclear."
+   },
+   {
+    "option_value": "C",
+    "option_label": "Established / Systematic",
+    "description": "Disclosures have owners, a calendar and Audit Committee review."
+   },
+   {
+    "option_value": "D",
+    "option_label": "Leading / Best-In-Class",
+    "description": "Disclosures are independently assured."
+   }
+  ],
+  "enabled": 0
+ },
+ {
+  "question_code": "QX-AI-01",
+  "section": "risk",
+  "topic": "risk | Technology and data",
+  "sequence": 311,
+  "scope": "Conditional",
+  "replaces_question": "Q31",
+  "question_text": "How are the AI systems you build or deliver governed against the national AI ethics principles (fairness, transparency, accountability, privacy)?",
+  "rules": [
+   {
+    "dimension": "Industry Type",
+    "rule_type": "Include",
+    "value": "Artificial Intelligence (AI)"
+   }
+  ],
+  "options": [
+   {
+    "option_value": "A",
+    "option_label": "Minimal / Ad-hoc",
+    "description": "No AI governance exists."
+   },
+   {
+    "option_value": "B",
+    "option_label": "Foundational / Basic",
+    "description": "Principles are adopted on paper."
+   },
+   {
+    "option_value": "C",
+    "option_label": "Established / Systematic",
+    "description": "Each model has an owner, a risk assessment, testing and monitoring before release."
+   },
+   {
+    "option_value": "D",
+    "option_label": "Leading / Best-In-Class",
+    "description": "Models are independently validated and monitored for drift and bias."
+   }
+  ],
+  "enabled": 0
+ }
+]

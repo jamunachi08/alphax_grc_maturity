@@ -1,0 +1,93 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Entity Size",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-08 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "sequence",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "entity_size",
+   "fieldtype": "Data",
+   "label": "Entity Size",
+   "reqd": 1,
+   "unique": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "entity_size_ar",
+   "fieldtype": "Data",
+   "label": "Entity Size (Arabic)"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "sequence",
+   "fieldtype": "Int",
+   "label": "Sequence"
+  },
+  {
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled",
+   "default": "1"
+  }
+ ],
+ "field_order": [
+  "entity_size",
+  "entity_size_ar",
+  "description",
+  "sequence",
+  "enabled"
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Consultant",
+   "read": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1
+  }
+ ],
+ "istable": 0,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "track_changes": 1,
+ "autoname": "field:entity_size",
+ "naming_rule": "By fieldname"
+}

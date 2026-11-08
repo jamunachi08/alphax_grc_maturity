@@ -1,0 +1,59 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Assessment License",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-08 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "license_type",
+   "fieldtype": "Link",
+   "label": "License Type",
+   "options": "GRC Maturity License Type",
+   "in_list_view": 1,
+   "columns": 2
+  },
+  {
+   "fieldname": "license_name",
+   "fieldtype": "Data",
+   "label": "License Name / Number",
+   "in_list_view": 1,
+   "columns": 3
+  },
+  {
+   "fieldname": "is_valid",
+   "fieldtype": "Select",
+   "label": "Still Valid",
+   "options": "\nYes\nNo",
+   "in_list_view": 1,
+   "columns": 1
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date",
+   "in_list_view": 1,
+   "columns": 2
+  }
+ ],
+ "field_order": [
+  "license_type",
+  "license_name",
+  "is_valid",
+  "expiry_date"
+ ],
+ "permissions": [],
+ "istable": 1,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "editable_grid": 1,
+ "track_changes": 0
+}

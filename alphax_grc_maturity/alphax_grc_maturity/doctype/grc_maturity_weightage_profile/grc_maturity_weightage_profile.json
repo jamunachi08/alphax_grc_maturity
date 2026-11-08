@@ -1,0 +1,197 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Weightage Profile",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-08 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "profile_name",
+   "fieldtype": "Data",
+   "label": "Profile Name",
+   "reqd": 1,
+   "unique": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "is_global",
+   "fieldtype": "Check",
+   "label": "Global Profile",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "description": "Only one global profile is allowed. It has no scope and is the last fallback."
+  },
+  {
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled",
+   "default": "1",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Int",
+   "label": "Priority",
+   "default": "0",
+   "description": "Breaks ties between profiles with the same specificity (higher wins)"
+  },
+  {
+   "fieldname": "specificity",
+   "fieldtype": "Int",
+   "label": "Specificity",
+   "read_only": 1,
+   "in_list_view": 1,
+   "description": "Calculated: Sector 64, Industry 32, License 16, Regulator 8, Nationality 4, Legal Form 2, Size 1"
+  },
+  {
+   "fieldname": "sb_scope",
+   "fieldtype": "Section Break",
+   "label": "Scope",
+   "description": "Blank means 'any'. A profile applies when every filled field matches the assessment.",
+   "depends_on": "eval:!doc.is_global"
+  },
+  {
+   "fieldname": "industry_type",
+   "fieldtype": "Link",
+   "label": "Industry Type",
+   "options": "GRC Maturity Industry Type",
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "industry_sector",
+   "fieldtype": "Link",
+   "label": "Industry Sector",
+   "options": "GRC Maturity Industry Sector",
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "company_nationality",
+   "fieldtype": "Link",
+   "label": "Company Nationality",
+   "options": "GRC Maturity Nationality"
+  },
+  {
+   "fieldname": "cb2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "license_type",
+   "fieldtype": "Link",
+   "label": "License Type",
+   "options": "GRC Maturity License Type"
+  },
+  {
+   "fieldname": "regulator",
+   "fieldtype": "Link",
+   "label": "Regulator (answered Yes)",
+   "options": "GRC Maturity Regulator"
+  },
+  {
+   "fieldname": "legal_form",
+   "fieldtype": "Link",
+   "label": "Legal Form",
+   "options": "GRC Maturity Legal Form"
+  },
+  {
+   "fieldname": "entity_size",
+   "fieldtype": "Link",
+   "label": "Entity Size",
+   "options": "GRC Maturity Entity Size"
+  },
+  {
+   "fieldname": "sb_lines",
+   "fieldtype": "Section Break",
+   "label": "Weights",
+   "description": "Section weights drive the overall roll-up. Topic and question weights drive the score inside a section. Anything not set here falls back to the next matching profile, then to the global profile, then to 1 (or the question's default weight)."
+  },
+  {
+   "fieldname": "lines",
+   "fieldtype": "Table",
+   "label": "Weight Lines",
+   "options": "GRC Maturity Weight Line"
+  },
+  {
+   "fieldname": "sb_notes",
+   "fieldtype": "Section Break",
+   "label": "Notes",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "field_order": [
+  "profile_name",
+  "is_global",
+  "enabled",
+  "cb1",
+  "priority",
+  "specificity",
+  "sb_scope",
+  "industry_type",
+  "industry_sector",
+  "company_nationality",
+  "cb2",
+  "license_type",
+  "regulator",
+  "legal_form",
+  "entity_size",
+  "sb_lines",
+  "lines",
+  "sb_notes",
+  "notes"
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Consultant",
+   "read": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1
+  }
+ ],
+ "istable": 0,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "track_changes": 1,
+ "autoname": "field:profile_name",
+ "naming_rule": "By fieldname"
+}

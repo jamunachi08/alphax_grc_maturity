@@ -1,0 +1,303 @@
+{
+ "doctype": "Workspace",
+ "name": "GRC Maturity",
+ "label": "GRC Maturity",
+ "title": "GRC Maturity",
+ "module": "AlphaX GRC Maturity",
+ "public": 1,
+ "is_hidden": 0,
+ "icon": "assign",
+ "indicator_color": "",
+ "sequence_id": 40.0,
+ "parent_page": "",
+ "for_user": "",
+ "hide_custom": 0,
+ "content": "[{\"id\": \"axgh1\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>GRC Maturity</b></span>\", \"col\": 12}}, {\"id\": \"axgs0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Assessments\", \"col\": 3}}, {\"id\": \"axgsreg\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Registrations\", \"col\": 3}}, {\"id\": \"axgs1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Questions\", \"col\": 3}}, {\"id\": \"axgs2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Weightage Profiles\", \"col\": 3}}, {\"id\": \"axgs3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Open Assessment Page\", \"col\": 3}}, {\"id\": \"axgsp\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"axgc0\", \"type\": \"card\", \"data\": {\"card_name\": \"Assessments\", \"col\": 4}}, {\"id\": \"axgc1\", \"type\": \"card\", \"data\": {\"card_name\": \"Question Bank\", \"col\": 4}}, {\"id\": \"axgc2\", \"type\": \"card\", \"data\": {\"card_name\": \"Profile Masters\", \"col\": 4}}, {\"id\": \"axgc3\", \"type\": \"card\", \"data\": {\"card_name\": \"Branding and Settings\", \"col\": 4}}]",
+ "shortcuts": [
+  {
+   "type": "DocType",
+   "link_to": "GRC Maturity Assessment",
+   "label": "Assessments",
+   "doc_view": "List",
+   "color": "Blue",
+   "format": "{} Draft",
+   "stats_filter": "{\"status\":\"Draft\"}"
+  },
+  {
+   "type": "DocType",
+   "link_to": "GRC Maturity Registration",
+   "label": "Registrations",
+   "doc_view": "List",
+   "color": "Orange",
+   "format": "{} Pending",
+   "stats_filter": "{\"status\":\"Pending Approval\"}"
+  },
+  {
+   "type": "DocType",
+   "link_to": "GRC Maturity Question",
+   "label": "Questions",
+   "doc_view": "List",
+   "color": "Grey"
+  },
+  {
+   "type": "DocType",
+   "link_to": "GRC Maturity Weightage Profile",
+   "label": "Weightage Profiles",
+   "doc_view": "List",
+   "color": "Grey"
+  },
+  {
+   "type": "URL",
+   "url": "/grc-assessment",
+   "label": "Open Assessment Page",
+   "color": "Green"
+  }
+ ],
+ "links": [
+  {
+   "type": "Card Break",
+   "label": "Assessments",
+   "link_count": 3,
+   "hidden": 0,
+   "onboard": 0,
+   "is_query_report": 0,
+   "link_type": "DocType",
+   "link_to": null,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Registration",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Registration",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "GRC Maturity Assessment",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Assessment",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "GRC Maturity Summary",
+   "link_type": "Report",
+   "link_to": "GRC Maturity Summary",
+   "is_query_report": 1,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Card Break",
+   "label": "Question Bank",
+   "link_count": 4,
+   "hidden": 0,
+   "onboard": 0,
+   "is_query_report": 0,
+   "link_type": "DocType",
+   "link_to": null,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Section",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Section",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Topic",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Topic",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Question",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Question",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Weightage Profile",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Weightage Profile",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Card Break",
+   "label": "Profile Masters",
+   "link_count": 7,
+   "hidden": 0,
+   "onboard": 0,
+   "is_query_report": 0,
+   "link_type": "DocType",
+   "link_to": null,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Industry Type",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Industry Type",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Industry Sector",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Industry Sector",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Company Nationality",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Nationality",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "License Type",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity License Type",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Regulator",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Regulator",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Legal Form",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Legal Form",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Entity Size",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Entity Size",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Card Break",
+   "label": "Branding and Settings",
+   "link_count": 3,
+   "hidden": 0,
+   "onboard": 0,
+   "is_query_report": 0,
+   "link_type": "DocType",
+   "link_to": null,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Settings",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Settings",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Brand",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Brand",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  },
+  {
+   "type": "Link",
+   "label": "Theme",
+   "link_type": "DocType",
+   "link_to": "GRC Maturity Theme",
+   "is_query_report": 0,
+   "onboard": 0,
+   "hidden": 0,
+   "dependencies": "",
+   "only_for": ""
+  }
+ ],
+ "charts": [],
+ "number_cards": [],
+ "quick_lists": [],
+ "custom_blocks": [],
+ "roles": [],
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-09 10:00:00.000000",
+ "docstatus": 0
+}

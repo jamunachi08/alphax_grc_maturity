@@ -1,0 +1,318 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Brand",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-09 10:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "brand_name",
+   "fieldtype": "Data",
+   "label": "Brand Name",
+   "reqd": 1,
+   "unique": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "route_slug",
+   "fieldtype": "Data",
+   "label": "URL Key",
+   "reqd": 1,
+   "unique": 1,
+   "in_list_view": 1,
+   "description": "Opens as /grc-assessment?b=<key>"
+  },
+  {
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled",
+   "default": "1"
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "theme",
+   "fieldtype": "Link",
+   "label": "Theme",
+   "options": "GRC Maturity Theme",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name",
+   "description": "Legal or trading name shown in the footer and report"
+  },
+  {
+   "fieldname": "app_title",
+   "fieldtype": "Data",
+   "label": "Assessment Title",
+   "default": "GRC Maturity Assessment"
+  },
+  {
+   "fieldname": "app_title_ar",
+   "fieldtype": "Data",
+   "label": "Assessment Title (Arabic)",
+   "default": "تقييم نضج الحوكمة والمخاطر والالتزام"
+  },
+  {
+   "fieldname": "sb_logo",
+   "fieldtype": "Section Break",
+   "label": "Identity"
+  },
+  {
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  },
+  {
+   "fieldname": "logo_dark",
+   "fieldtype": "Attach Image",
+   "label": "Logo for Dark Mode"
+  },
+  {
+   "fieldname": "cb2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "favicon",
+   "fieldtype": "Attach Image",
+   "label": "Favicon"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website",
+   "options": "URL"
+  },
+  {
+   "fieldname": "support_email",
+   "fieldtype": "Data",
+   "label": "Support Email",
+   "options": "Email",
+   "default": "grc.audit.assessment@irsaa.com"
+  },
+  {
+   "fieldname": "sb_wl",
+   "fieldtype": "Section Break",
+   "label": "White Label"
+  },
+  {
+   "fieldname": "white_label",
+   "fieldtype": "Check",
+   "label": "White Label",
+   "description": "Hides every AlphaX / IRSAA mark and the 'Powered by' line"
+  },
+  {
+   "fieldname": "powered_by_text",
+   "fieldtype": "Data",
+   "label": "Powered By Text",
+   "default": "Powered by AlphaX · IRSAA Business Solution",
+   "depends_on": "eval:!doc.white_label"
+  },
+  {
+   "fieldname": "cb3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hide_score_from_respondent",
+   "fieldtype": "Check",
+   "label": "Hide Score Until Reviewed",
+   "description": "Respondent sees a thank-you page; the report is released when a consultant sets status to Reviewed."
+  },
+  {
+   "fieldname": "show_weights",
+   "fieldtype": "Check",
+   "label": "Show Weights to Respondent"
+  },
+  {
+   "fieldname": "sb_text",
+   "fieldtype": "Section Break",
+   "label": "Texts",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "intro_text",
+   "fieldtype": "Text Editor",
+   "label": "Welcome Text"
+  },
+  {
+   "fieldname": "intro_text_ar",
+   "fieldtype": "Text Editor",
+   "label": "Welcome Text (Arabic)"
+  },
+  {
+   "fieldname": "footer_text",
+   "fieldtype": "Small Text",
+   "label": "Footer Text"
+  },
+  {
+   "fieldname": "footer_text_ar",
+   "fieldtype": "Small Text",
+   "label": "Footer Text (Arabic)"
+  },
+  {
+   "fieldname": "report_disclaimer",
+   "fieldtype": "Small Text",
+   "label": "Report Disclaimer"
+  },
+  {
+   "fieldname": "report_disclaimer_ar",
+   "fieldtype": "Small Text",
+   "label": "Report Disclaimer (Arabic)"
+  },
+  {
+   "fieldname": "registration_intro",
+   "fieldtype": "Text Editor",
+   "label": "Registration Page Text"
+  },
+  {
+   "fieldname": "registration_intro_ar",
+   "fieldtype": "Text Editor",
+   "label": "Registration Page Text (Arabic)"
+  },
+  {
+   "fieldname": "consent_text",
+   "fieldtype": "Small Text",
+   "label": "Consent Text",
+   "default": "I agree that the information I provide may be processed to deliver this assessment and to contact me about it, in line with the Personal Data Protection Law."
+  },
+  {
+   "fieldname": "consent_text_ar",
+   "fieldtype": "Small Text",
+   "label": "Consent Text (Arabic)",
+   "default": "أوافق على معالجة المعلومات التي أقدمها لتقديم هذا التقييم والتواصل معي بشأنه، وفقًا لنظام حماية البيانات الشخصية."
+  },
+  {
+   "fieldname": "sb_mail",
+   "fieldtype": "Section Break",
+   "label": "Email"
+  },
+  {
+   "fieldname": "email_account",
+   "fieldtype": "Link",
+   "label": "Sender Email Account",
+   "options": "Email Account",
+   "description": "Blank uses the default outgoing account"
+  },
+  {
+   "fieldname": "send_report_to_respondent",
+   "fieldtype": "Check",
+   "label": "Email Report to Respondent",
+   "default": "1"
+  },
+  {
+   "fieldname": "attach_pdf",
+   "fieldtype": "Check",
+   "label": "Attach PDF Report",
+   "default": "1"
+  },
+  {
+   "fieldname": "cb4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email_subject",
+   "fieldtype": "Data",
+   "label": "Email Subject",
+   "default": "Your GRC Maturity Assessment report – {name}"
+  },
+  {
+   "fieldname": "notify",
+   "fieldtype": "Table",
+   "label": "Internal Recipients",
+   "options": "GRC Maturity Brand Notify"
+  }
+ ],
+ "field_order": [
+  "brand_name",
+  "route_slug",
+  "enabled",
+  "cb1",
+  "theme",
+  "company_name",
+  "app_title",
+  "app_title_ar",
+  "sb_logo",
+  "logo",
+  "logo_dark",
+  "cb2",
+  "favicon",
+  "website",
+  "support_email",
+  "sb_wl",
+  "white_label",
+  "powered_by_text",
+  "cb3",
+  "hide_score_from_respondent",
+  "show_weights",
+  "sb_text",
+  "intro_text",
+  "intro_text_ar",
+  "footer_text",
+  "footer_text_ar",
+  "report_disclaimer",
+  "report_disclaimer_ar",
+  "registration_intro",
+  "registration_intro_ar",
+  "consent_text",
+  "consent_text_ar",
+  "sb_mail",
+  "email_account",
+  "send_report_to_respondent",
+  "attach_pdf",
+  "cb4",
+  "email_subject",
+  "notify"
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Consultant",
+   "read": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1
+  }
+ ],
+ "istable": 0,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "track_changes": 1,
+ "autoname": "field:brand_name",
+ "naming_rule": "By fieldname"
+}
