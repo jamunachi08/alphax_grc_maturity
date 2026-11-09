@@ -1,0 +1,20 @@
+{%- set ar = (lang == "ar") -%}
+<div dir="{{ 'rtl' if ar else 'ltr' }}" style="font-family:{{ 'Tahoma, Arial' if ar else 'Segoe UI, Arial' }}, sans-serif;color:#1e2a3a;font-size:14px;line-height:1.6">
+	{% if internal %}
+	<p><b>{{ doc.organization_name }}</b> {{ _("has a GRC Maturity Assessment with status") }} <b>{{ _(doc.status) }}</b>.</p>
+	<p>{{ doc.industry_type }} · {{ doc.industry_sector }} · {{ doc.company_nationality }}<br>
+	{{ _("Contact") }}: {{ doc.contact_name or "" }} {{ doc.contact_email or "" }} {{ doc.contact_phone or "" }}</p>
+	<p style="font-size:20px"><b>{{ "%.1f" | format(doc.overall_percentage or 0) }}%</b> · {{ doc.maturity_band }}</p>
+	<p><a href="{{ frappe.utils.get_url('/app/grc-maturity-assessment/' + doc.name) }}">{{ _("Open in desk") }}</a></p>
+	{% elif hide %}
+	<p>{{ _("Thank you. Your assessment was submitted.") }}</p>
+	<p>{{ _("Our consultants will review your answers and share the report with you.") }}</p>
+	<p>{{ _("Report ID") }}: <b>{{ doc.name }}</b> · {{ _("Access key") }}: <b>{{ doc.access_key }}</b></p>
+	{% else %}
+	<p>{{ _("Thank you for completing the GRC Maturity Assessment.") }}</p>
+	<p style="font-size:20px"><b>{{ "%.1f" | format(doc.overall_percentage or 0) }}%</b> · {{ doc.maturity_band }}</p>
+	<p>{{ _("Your full report is attached. You can also reopen it online:") }}<br><a href="{{ link }}">{{ link }}</a></p>
+	<p>{{ _("Report ID") }}: <b>{{ doc.name }}</b> · {{ _("Access key") }}: <b>{{ doc.access_key }}</b></p>
+	{% endif %}
+	<p style="color:#5a6f87;font-size:12px">{{ (brand.footer_text_ar if ar and brand.footer_text_ar else brand.footer_text) or "" }}{% if not brand.white_label and brand.powered_by_text %}<br>{{ brand.powered_by_text }}{% endif %}</p>
+</div>

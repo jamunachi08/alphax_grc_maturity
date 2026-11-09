@@ -1,0 +1,26 @@
+[
+ {
+  "entity_size": "Micro",
+  "entity_size_ar": "متناهية الصغر",
+  "description": "1–5 employees",
+  "sequence": 1
+ },
+ {
+  "entity_size": "Small",
+  "entity_size_ar": "صغيرة",
+  "description": "6–49 employees",
+  "sequence": 2
+ },
+ {
+  "entity_size": "Medium",
+  "entity_size_ar": "متوسطة",
+  "description": "50–249 employees",
+  "sequence": 3
+ },
+ {
+  "entity_size": "Large",
+  "entity_size_ar": "كبيرة",
+  "description": "250+ employees",
+  "sequence": 4
+ }
+]

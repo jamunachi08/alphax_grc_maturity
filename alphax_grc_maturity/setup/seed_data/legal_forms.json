@@ -1,0 +1,52 @@
+[
+ {
+  "legal_form": "Limited Liability Company (LLC)",
+  "legal_form_ar": "شركة ذات مسؤولية محدودة",
+  "sequence": 1
+ },
+ {
+  "legal_form": "Joint Stock Company (Listed)",
+  "legal_form_ar": "شركة مساهمة مدرجة",
+  "sequence": 2
+ },
+ {
+  "legal_form": "Joint Stock Company (Unlisted)",
+  "legal_form_ar": "شركة مساهمة غير مدرجة",
+  "sequence": 3
+ },
+ {
+  "legal_form": "Simplified Joint Stock Company",
+  "legal_form_ar": "شركة مساهمة مبسطة",
+  "sequence": 4
+ },
+ {
+  "legal_form": "Sole Proprietorship",
+  "legal_form_ar": "مؤسسة فردية",
+  "sequence": 5
+ },
+ {
+  "legal_form": "Partnership",
+  "legal_form_ar": "شركة تضامن أو توصية",
+  "sequence": 6
+ },
+ {
+  "legal_form": "Branch of a Foreign Company",
+  "legal_form_ar": "فرع شركة أجنبية",
+  "sequence": 7
+ },
+ {
+  "legal_form": "Non-profit Association or Foundation",
+  "legal_form_ar": "جمعية أو مؤسسة غير ربحية",
+  "sequence": 8
+ },
+ {
+  "legal_form": "Government Entity",
+  "legal_form_ar": "جهة حكومية",
+  "sequence": 9
+ },
+ {
+  "legal_form": "Other",
+  "legal_form_ar": "أخرى",
+  "sequence": 10
+ }
+]

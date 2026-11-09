@@ -1,0 +1,307 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Registration",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-08 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "organization_name",
+   "fieldtype": "Data",
+   "label": "Organization Name",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "bold": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Pending Verification\nPending Approval\nActive\nRejected\nDisabled",
+   "default": "Pending Verification",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Link",
+   "label": "Brand",
+   "options": "GRC Maturity Brand"
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_name",
+   "fieldtype": "Data",
+   "label": "Contact Name",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "job_title",
+   "fieldtype": "Data",
+   "label": "Job Title"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Work Email",
+   "options": "Email",
+   "reqd": 1,
+   "unique": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "sb_org",
+   "fieldtype": "Section Break",
+   "label": "Organization"
+  },
+  {
+   "fieldname": "industry_type",
+   "fieldtype": "Link",
+   "label": "Industry Type",
+   "options": "GRC Maturity Industry Type",
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "industry_sector",
+   "fieldtype": "Link",
+   "label": "Industry Sector",
+   "options": "GRC Maturity Industry Sector"
+  },
+  {
+   "fieldname": "sector_other",
+   "fieldtype": "Data",
+   "label": "Sector (Other)"
+  },
+  {
+   "fieldname": "cb2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_nationality",
+   "fieldtype": "Link",
+   "label": "Company Nationality",
+   "options": "GRC Maturity Nationality"
+  },
+  {
+   "fieldname": "cr_number",
+   "fieldtype": "Data",
+   "label": "Saudi CR Number",
+   "length": 10
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "language",
+   "fieldtype": "Select",
+   "label": "Preferred Language",
+   "options": "en\nar",
+   "default": "en"
+  },
+  {
+   "fieldname": "sb_acc",
+   "fieldtype": "Section Break",
+   "label": "Account"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "Portal User",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "email_verified",
+   "fieldtype": "Check",
+   "label": "Email Verified",
+   "read_only": 1
+  },
+  {
+   "fieldname": "verified_on",
+   "fieldtype": "Datetime",
+   "label": "Verified On",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cb3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "consent_given",
+   "fieldtype": "Check",
+   "label": "Consent Given",
+   "read_only": 1
+  },
+  {
+   "fieldname": "consent_on",
+   "fieldtype": "Datetime",
+   "label": "Consent On",
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_login",
+   "fieldtype": "Datetime",
+   "label": "Last Sign-in",
+   "read_only": 1
+  },
+  {
+   "fieldname": "source_ip",
+   "fieldtype": "Data",
+   "label": "Source IP",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sb_otp",
+   "fieldtype": "Section Break",
+   "label": "Verification Code",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "otp_hash",
+   "fieldtype": "Data",
+   "label": "Code Hash",
+   "read_only": 1,
+   "hidden": 1
+  },
+  {
+   "fieldname": "otp_expires",
+   "fieldtype": "Datetime",
+   "label": "Code Expires",
+   "read_only": 1
+  },
+  {
+   "fieldname": "otp_attempts",
+   "fieldtype": "Int",
+   "label": "Failed Attempts",
+   "read_only": 1
+  },
+  {
+   "fieldname": "otp_sent_on",
+   "fieldtype": "Datetime",
+   "label": "Code Sent On",
+   "read_only": 1
+  },
+  {
+   "fieldname": "sb_notes",
+   "fieldtype": "Section Break",
+   "label": "Review"
+  },
+  {
+   "fieldname": "review_notes",
+   "fieldtype": "Small Text",
+   "label": "Review Notes"
+  },
+  {
+   "fieldname": "reviewed_by",
+   "fieldtype": "Link",
+   "label": "Reviewed By",
+   "options": "User",
+   "read_only": 1
+  }
+ ],
+ "field_order": [
+  "organization_name",
+  "status",
+  "brand",
+  "cb1",
+  "contact_name",
+  "job_title",
+  "email",
+  "mobile",
+  "sb_org",
+  "industry_type",
+  "industry_sector",
+  "sector_other",
+  "cb2",
+  "company_nationality",
+  "cr_number",
+  "city",
+  "language",
+  "sb_acc",
+  "user",
+  "email_verified",
+  "verified_on",
+  "cb3",
+  "consent_given",
+  "consent_on",
+  "last_login",
+  "source_ip",
+  "sb_otp",
+  "otp_hash",
+  "otp_expires",
+  "otp_attempts",
+  "otp_sent_on",
+  "sb_notes",
+  "review_notes",
+  "reviewed_by"
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  },
+  {
+   "role": "GRC Maturity Consultant",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "report": 1,
+   "export": 1,
+   "print": 1,
+   "email": 1,
+   "share": 1
+  }
+ ],
+ "istable": 0,
+ "issingle": 0,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "track_changes": 1,
+ "autoname": "format:REG-{YYYY}-{#####}",
+ "naming_rule": "Expression",
+ "title_field": "organization_name",
+ "show_title_field_in_link": 1,
+ "search_fields": "organization_name,email,contact_name"
+}

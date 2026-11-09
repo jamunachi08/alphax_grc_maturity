@@ -1,0 +1,26 @@
+[
+ {
+  "section_id": "awareness",
+  "section_label": "GRC Maturity Awareness",
+  "section_label_ar": "الوعي بنضج الحوكمة والمخاطر والالتزام",
+  "sequence": 1
+ },
+ {
+  "section_id": "governance",
+  "section_label": "Governance",
+  "section_label_ar": "الحوكمة",
+  "sequence": 2
+ },
+ {
+  "section_id": "risk",
+  "section_label": "Risk",
+  "section_label_ar": "المخاطر",
+  "sequence": 3
+ },
+ {
+  "section_id": "compliance",
+  "section_label": "Compliance",
+  "section_label_ar": "الالتزام",
+  "sequence": 4
+ }
+]

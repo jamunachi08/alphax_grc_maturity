@@ -1,0 +1,104 @@
+[
+ {
+  "license_type": "Investment License (MISA)",
+  "license_type_ar": "ترخيص استثمار (وزارة الاستثمار)",
+  "issuing_regulator": "MISA (Ministry of Investment)",
+  "sequence": 1
+ },
+ {
+  "license_type": "SAMA License",
+  "license_type_ar": "ترخيص البنك المركزي السعودي",
+  "issuing_regulator": "SAMA (Saudi Central Bank)",
+  "sequence": 2
+ },
+ {
+  "license_type": "CMA License",
+  "license_type_ar": "ترخيص هيئة السوق المالية",
+  "issuing_regulator": "CMA (Capital Market Authority)",
+  "sequence": 3
+ },
+ {
+  "license_type": "Insurance Authority License",
+  "license_type_ar": "ترخيص هيئة التأمين",
+  "issuing_regulator": "Insurance Authority",
+  "sequence": 4
+ },
+ {
+  "license_type": "CST License",
+  "license_type_ar": "ترخيص هيئة الاتصالات والفضاء والتقنية",
+  "issuing_regulator": "CST (Communications, Space and Technology Commission)",
+  "sequence": 5
+ },
+ {
+  "license_type": "Ministry of Health Facility License",
+  "license_type_ar": "ترخيص منشأة صحية",
+  "issuing_regulator": "Ministry of Health",
+  "sequence": 6
+ },
+ {
+  "license_type": "SFDA License",
+  "license_type_ar": "ترخيص الهيئة العامة للغذاء والدواء",
+  "issuing_regulator": "SFDA (Saudi Food and Drug Authority)",
+  "sequence": 7
+ },
+ {
+  "license_type": "Contractor Classification",
+  "license_type_ar": "تصنيف المقاولين",
+  "issuing_regulator": "Saudi Contractors Authority",
+  "sequence": 8
+ },
+ {
+  "license_type": "REGA License",
+  "license_type_ar": "ترخيص الهيئة العامة للعقار",
+  "issuing_regulator": "REGA (Real Estate General Authority)",
+  "sequence": 9
+ },
+ {
+  "license_type": "Transport General Authority License",
+  "license_type_ar": "ترخيص الهيئة العامة للنقل",
+  "issuing_regulator": "Transport General Authority",
+  "sequence": 10
+ },
+ {
+  "license_type": "General Entertainment Authority License",
+  "license_type_ar": "ترخيص الهيئة العامة للترفيه",
+  "issuing_regulator": "General Entertainment Authority",
+  "sequence": 11
+ },
+ {
+  "license_type": "Tourism License",
+  "license_type_ar": "ترخيص سياحي",
+  "issuing_regulator": "Ministry of Tourism",
+  "sequence": 12
+ },
+ {
+  "license_type": "Municipal License (Balady)",
+  "license_type_ar": "رخصة بلدية (بلدي)",
+  "issuing_regulator": "Ministry of Municipalities and Housing (Balady)",
+  "sequence": 13
+ },
+ {
+  "license_type": "Civil Defense Permit",
+  "license_type_ar": "تصريح الدفاع المدني",
+  "issuing_regulator": "Civil Defense",
+  "sequence": 14
+ },
+ {
+  "license_type": "Industrial License",
+  "license_type_ar": "ترخيص صناعي",
+  "issuing_regulator": "Ministry of Industry and Mineral Resources",
+  "sequence": 15
+ },
+ {
+  "license_type": "NCNP Registration",
+  "license_type_ar": "تسجيل المركز الوطني للقطاع غير الربحي",
+  "issuing_regulator": "NCNP (National Center for Non-Profit Sector)",
+  "sequence": 16
+ },
+ {
+  "license_type": "Other",
+  "license_type_ar": "أخرى",
+  "issuing_regulator": null,
+  "sequence": 17
+ }
+]
