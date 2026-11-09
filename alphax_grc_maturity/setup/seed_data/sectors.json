@@ -1,0 +1,2781 @@
+[
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Banking",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SAMA (Saudi Central Bank)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Financing",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SAMA (Saudi Central Bank)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Payments",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SAMA (Saudi Central Bank)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Fintech",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SAMA (Saudi Central Bank)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Money services",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SAMA (Saudi Central Bank)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Capital markets",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "CMA (Capital Market Authority)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Investment management",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "CMA (Capital Market Authority)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Insurance",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Insurance Authority"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Credit services",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SAMA (Saudi Central Bank)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Accounting and bookkeeping",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SOCPA (Saudi Organization for Chartered and Professional Accountants)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Financial advisory",
+  "sequence": 11,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Tax services",
+  "sequence": 12,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SOCPA (Saudi Organization for Chartered and Professional Accountants)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Actuarial services",
+  "sequence": 13,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Insurance Authority"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Financial outsourcing",
+  "sequence": 14,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SAMA (Saudi Central Bank)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Financial Services",
+  "sector_name": "Other",
+  "sequence": 15,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "Recruitment and executive search",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "Staffing and manpower supply",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "Temporary and permanent workforce solutions",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "HR consulting and advisory",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "Payroll processing and administration",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "Employee benefits administration",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "HR outsourcing and shared services",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "Talent acquisition and management",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "Learning and development",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "TVTC (Technical and Vocational Training Corporation)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "Professional training and certification",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "TVTC (Technical and Vocational Training Corporation)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "Employee engagement and assessment",
+  "sequence": 11,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "Workforce management and planning",
+  "sequence": 12,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Human Resources (HR)",
+  "sector_name": "Other",
+  "sequence": 13,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "IT consulting and advisory",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "Software development and engineering",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "Enterprise software and ERP solutions",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "SaaS and application services",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "Cloud computing and hosting",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "CST (Communications, Space and Technology Commission)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "Data centers and infrastructure",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "CST (Communications, Space and Technology Commission)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "IT hardware and equipment",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "IT infrastructure management",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "Managed IT services",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "Database management",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "Systems integration",
+  "sequence": 11,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "IT outsourcing and technical support",
+  "sequence": 12,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "Business intelligence and data analytics",
+  "sequence": 13,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Information Technology (IT)",
+  "sector_name": "Other",
+  "sequence": 14,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Security Operations Centers (SOC)",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Managed Security Service Providers (MSSP)",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Cybersecurity consulting and advisory",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Penetration testing and vulnerability assessments",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Security architecture and engineering",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Identity and Access Management (IAM)",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "GRC security solutions",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "SIEM",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Endpoint Detection and Response (EDR)",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Threat intelligence",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Digital forensics and incident response",
+  "sequence": 11,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Data protection and information security",
+  "sequence": 12,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Security awareness and training",
+  "sequence": 13,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Application and cloud security",
+  "sequence": 14,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Cybersecurity",
+  "sector_name": "Other",
+  "sequence": 15,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "AI development and engineering",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "Generative AI solutions",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "Machine learning and deep learning",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "AI consulting and advisory",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "AI automation and intelligent process automation",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "AI agents and autonomous systems",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "Natural Language Processing (NLP)",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "Computer vision",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "Robotics and intelligent automation",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "AI infrastructure and platforms",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "AI data services and model training",
+  "sequence": 11,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "AI governance, risk, and ethics",
+  "sequence": 12,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "AI testing, validation, and assurance",
+  "sequence": 13,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "Predictive analytics",
+  "sequence": 14,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Artificial Intelligence (AI)",
+  "sector_name": "Other",
+  "sequence": 15,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Corporate governance consulting",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Enterprise Risk Management (ERM)",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Operational risk management",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Regulatory compliance advisory",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Compliance management solutions",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Risk assessment and management",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Internal controls advisory",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Business continuity management",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Crisis management and resilience",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Policy and procedure development",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Regulatory reporting",
+  "sequence": 11,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Third-party risk management",
+  "sequence": 12,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Anti-Money Laundering (AML) advisory",
+  "sequence": 13,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Know Your Customer (KYC) solutions",
+  "sequence": 14,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Ethics and anti-fraud advisory",
+  "sequence": 15,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Governance, Risk, and Compliance (GRC)",
+  "sector_name": "Other",
+  "sequence": 16,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Audit and Assurance Services",
+  "sector_name": "Internal audit",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Audit and Assurance Services",
+  "sector_name": "External audit",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Audit and Assurance Services",
+  "sector_name": "Financial audit",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Audit and Assurance Services",
+  "sector_name": "IT audit",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Audit and Assurance Services",
+  "sector_name": "Cybersecurity audit",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Audit and Assurance Services",
+  "sector_name": "Compliance audit",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Audit and Assurance Services",
+  "sector_name": "Risk assurance",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Audit and Assurance Services",
+  "sector_name": "Forensic audit",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Audit and Assurance Services",
+  "sector_name": "Specialized assurance",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Audit and Assurance Services",
+  "sector_name": "Other",
+  "sequence": 10,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Freight forwarding",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Shipping and maritime transportation",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Mawani (Saudi Ports Authority)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Air cargo and freight",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "GACA (General Authority of Civil Aviation)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Road transportation and trucking",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Transport General Authority"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Warehousing and storage",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Supply chain management",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Courier and express delivery",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Last-mile delivery",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Customs clearance and brokerage",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Fleet management",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Transport General Authority"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Cold chain logistics",
+  "sequence": 11,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Port and cargo handling",
+  "sequence": 12,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Mawani (Saudi Ports Authority)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Distribution and fulfillment",
+  "sequence": 13,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Third-party and fourth-party logistics (3PL/4PL)",
+  "sequence": 14,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Logistics and Transportation (including supply chain)",
+  "sector_name": "Other",
+  "sequence": 15,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Television and broadcasting",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "GAMR (General Authority of Media Regulation)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Film and cinema production",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "GAMR (General Authority of Media Regulation)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Music and audio production",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Gaming and game development",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Digital entertainment",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Event management",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "General Entertainment Authority",
+   "Saudi Conventions and Exhibitions General Authority"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Concerts and live entertainment",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "General Entertainment Authority"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Advertising and marketing",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "GAMR (General Authority of Media Regulation)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Media production",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "GAMR (General Authority of Media Regulation)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Publishing and content creation",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "GAMR (General Authority of Media Regulation)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Streaming platforms",
+  "sequence": 11,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "GAMR (General Authority of Media Regulation)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Amusement parks and recreational entertainment",
+  "sequence": 12,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "General Entertainment Authority"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Sports and entertainment management",
+  "sequence": 13,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Entertainment and Media",
+  "sector_name": "Other",
+  "sequence": 14,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Hotels and resorts",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Tourism"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Serviced apartments",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Tourism"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Accommodation providers",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Tourism"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Hospitality management",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Tourism"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Restaurants and cafes",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)",
+   "SFDA (Saudi Food and Drug Authority)",
+   "Civil Defense"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Catering services",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)",
+   "SFDA (Saudi Food and Drug Authority)",
+   "Civil Defense"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Food and beverage operations",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)",
+   "SFDA (Saudi Food and Drug Authority)",
+   "Civil Defense"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Tourism operators",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Tourism"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Travel agencies",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Tourism"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Hotel booking platforms",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Tourism"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Event and conference venues",
+  "sequence": 11,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)",
+   "Civil Defense"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Facilities and hospitality services",
+  "sequence": 12,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Hospitality and Hotels",
+  "sector_name": "Other",
+  "sequence": 13,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Hospitals and medical centers",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Health",
+   "SCFHS (Saudi Commission for Health Specialties)",
+   "CBAHI (Central Board for Accreditation of Healthcare Institutions)",
+   "Insurance Authority"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Clinics and specialized healthcare facilities",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Health",
+   "SCFHS (Saudi Commission for Health Specialties)",
+   "CBAHI (Central Board for Accreditation of Healthcare Institutions)",
+   "Insurance Authority"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Dental services",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Health",
+   "SCFHS (Saudi Commission for Health Specialties)",
+   "CBAHI (Central Board for Accreditation of Healthcare Institutions)",
+   "Insurance Authority"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Pharmaceutical companies",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SFDA (Saudi Food and Drug Authority)",
+   "Ministry of Health"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Pharmacies and drug distribution",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SFDA (Saudi Food and Drug Authority)",
+   "Ministry of Health"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Medical laboratories",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Health",
+   "SCFHS (Saudi Commission for Health Specialties)",
+   "CBAHI (Central Board for Accreditation of Healthcare Institutions)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Diagnostic imaging centers",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Health",
+   "SCFHS (Saudi Commission for Health Specialties)",
+   "CBAHI (Central Board for Accreditation of Healthcare Institutions)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Medical equipment suppliers",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SFDA (Saudi Food and Drug Authority)",
+   "Ministry of Health"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Medical devices and technology",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SFDA (Saudi Food and Drug Authority)",
+   "Ministry of Health"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Healthcare IT and digital health",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Health"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Home healthcare",
+  "sequence": 11,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Health",
+   "SCFHS (Saudi Commission for Health Specialties)",
+   "CBAHI (Central Board for Accreditation of Healthcare Institutions)",
+   "Insurance Authority"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Rehabilitation and physiotherapy",
+  "sequence": 12,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Health",
+   "SCFHS (Saudi Commission for Health Specialties)",
+   "CBAHI (Central Board for Accreditation of Healthcare Institutions)",
+   "Insurance Authority"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Healthcare consulting and administration",
+  "sequence": 13,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Medical waste management",
+  "sequence": 14,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Social care",
+  "sequence": 15,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Catering and food services",
+  "sequence": 16,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)",
+   "SFDA (Saudi Food and Drug Authority)",
+   "Civil Defense"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Healthcare and Medical Services",
+  "sector_name": "Other",
+  "sequence": 17,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Online marketplaces",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "E-commerce platforms",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Online retail stores",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Grocery and food delivery platforms",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SFDA (Saudi Food and Drug Authority)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Digital commerce solutions",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Retail chains and department stores",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Wholesale distribution",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Consumer goods retail",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Fashion and apparel retail",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Electronics retail",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SASO (Saudi Standards, Metrology and Quality Org.)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "E-commerce fulfillment",
+  "sequence": 11,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Retail payment and checkout solutions",
+  "sequence": 12,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SAMA (Saudi Central Bank)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Subscription commerce",
+  "sequence": 13,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Direct-to-consumer businesses",
+  "sequence": 14,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "E-commerce and Retail",
+  "sector_name": "Other",
+  "sequence": 15,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Professional and Consulting Services",
+  "sector_name": "Management consulting",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Professional and Consulting Services",
+  "sector_name": "Business strategy consulting",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Professional and Consulting Services",
+  "sector_name": "Legal services and law firms",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Justice"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Professional and Consulting Services",
+  "sector_name": "Corporate advisory",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Professional and Consulting Services",
+  "sector_name": "Business process outsourcing (BPO)",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Professional and Consulting Services",
+  "sector_name": "Administrative outsourcing",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Professional and Consulting Services",
+  "sector_name": "Corporate secretarial services",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Professional and Consulting Services",
+  "sector_name": "Document management",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Professional and Consulting Services",
+  "sector_name": "Translation and interpretation",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Professional and Consulting Services",
+  "sector_name": "Research and professional advisory",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Professional and Consulting Services",
+  "sector_name": "Other",
+  "sequence": 11,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "General construction contractors",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Saudi Contractors Authority",
+   "Ministry of Municipalities and Housing"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "Civil engineering",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Saudi Council of Engineers"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "Mechanical and electrical engineering",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Saudi Council of Engineers"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "Architecture and design",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Saudi Council of Engineers"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "Project management",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "Real estate development",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "REGA (Real Estate General Authority)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "Property management",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "REGA (Real Estate General Authority)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "Real estate brokerage",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "REGA (Real Estate General Authority)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "Facilities management",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "Building maintenance",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "Infrastructure development",
+  "sequence": 11,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Saudi Contractors Authority",
+   "Ministry of Municipalities and Housing"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "Quantity surveying",
+  "sequence": 12,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Saudi Council of Engineers"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Construction, Engineering and Real Estate",
+  "sector_name": "Other",
+  "sequence": 13,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Telecommunications",
+  "sector_name": "Telecommunications operators",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Telecommunications",
+  "sector_name": "Mobile network operators",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Telecommunications",
+  "sector_name": "Internet service providers (ISPs)",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Telecommunications",
+  "sector_name": "Data transmission services",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Telecommunications",
+  "sector_name": "Network infrastructure providers",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Telecommunications",
+  "sector_name": "Fiber optic services",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Telecommunications",
+  "sector_name": "Satellite communications",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Telecommunications",
+  "sector_name": "Unified communications",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Telecommunications",
+  "sector_name": "Telecommunications equipment providers",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Telecommunications",
+  "sector_name": "Other",
+  "sequence": 10,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Education and Training",
+  "sector_name": "Schools and educational institutions",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Education",
+   "ETEC (Education and Training Evaluation Commission)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Education and Training",
+  "sector_name": "Universities and colleges",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Education",
+   "ETEC (Education and Training Evaluation Commission)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Education and Training",
+  "sector_name": "Vocational training centers",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "TVTC (Technical and Vocational Training Corporation)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Education and Training",
+  "sector_name": "Professional certification providers",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "TVTC (Technical and Vocational Training Corporation)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Education and Training",
+  "sector_name": "E-learning platforms",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Education"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Education and Training",
+  "sector_name": "Corporate training",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "TVTC (Technical and Vocational Training Corporation)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Education and Training",
+  "sector_name": "Educational technology (EdTech)",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Education"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Education and Training",
+  "sector_name": "Research and academic institutions",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Education",
+   "ETEC (Education and Training Evaluation Commission)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Education and Training",
+  "sector_name": "Catering and food services",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)",
+   "SFDA (Saudi Food and Drug Authority)",
+   "Civil Defense"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Education and Training",
+  "sector_name": "Other",
+  "sequence": 10,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Manufacturing and Industrial",
+  "sector_name": "Industrial manufacturing",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Manufacturing and Industrial",
+  "sector_name": "Consumer goods manufacturing",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Manufacturing and Industrial",
+  "sector_name": "Food and beverage manufacturing",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Industry and Mineral Resources",
+   "SASO (Saudi Standards, Metrology and Quality Org.)",
+   "SFDA (Saudi Food and Drug Authority)",
+   "NCEC (National Center for Environmental Compliance)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Manufacturing and Industrial",
+  "sector_name": "Electronics manufacturing",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Manufacturing and Industrial",
+  "sector_name": "Automotive manufacturing",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Manufacturing and Industrial",
+  "sector_name": "Machinery and equipment",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Manufacturing and Industrial",
+  "sector_name": "Chemical and industrial products",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Manufacturing and Industrial",
+  "sector_name": "Packaging and printing",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Manufacturing and Industrial",
+  "sector_name": "Industrial maintenance",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Manufacturing and Industrial",
+  "sector_name": "Industrial automation",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Manufacturing and Industrial",
+  "sector_name": "Other",
+  "sequence": 11,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Energy and Utilities",
+  "sector_name": "Oil and gas",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Energy"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Energy and Utilities",
+  "sector_name": "Mining",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Industry and Mineral Resources"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Energy and Utilities",
+  "sector_name": "Electricity generation and distribution",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SERA (Saudi Electricity Regulatory Authority)",
+   "Ministry of Energy"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Energy and Utilities",
+  "sector_name": "Water utilities",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Environment, Water and Agriculture"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Energy and Utilities",
+  "sector_name": "Renewable energy",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SERA (Saudi Electricity Regulatory Authority)",
+   "Ministry of Energy"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Energy and Utilities",
+  "sector_name": "Solar and wind energy",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SERA (Saudi Electricity Regulatory Authority)",
+   "Ministry of Energy"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Energy and Utilities",
+  "sector_name": "Energy consulting",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Energy and Utilities",
+  "sector_name": "Utilities management",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Energy and Utilities",
+  "sector_name": "Waste management and recycling",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "NCEC (National Center for Environmental Compliance)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Energy and Utilities",
+  "sector_name": "Environmental services",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "NCEC (National Center for Environmental Compliance)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Energy and Utilities",
+  "sector_name": "Other",
+  "sequence": 11,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Government and Public Sector",
+  "sector_name": "Government ministries",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Government and Public Sector",
+  "sector_name": "Government authorities",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Government and Public Sector",
+  "sector_name": "Public sector agencies",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Government and Public Sector",
+  "sector_name": "Municipal services",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Government and Public Sector",
+  "sector_name": "Public administration",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Government and Public Sector",
+  "sector_name": "Government-owned companies",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Government and Public Sector",
+  "sector_name": "Public service operators",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Government and Public Sector",
+  "sector_name": "Regulatory and supervisory authorities",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Government and Public Sector",
+  "sector_name": "Defense",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Government and Public Sector",
+  "sector_name": "Other",
+  "sequence": 10,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Facilities Management and Physical Security",
+  "sector_name": "Integrated facilities management",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Facilities Management and Physical Security",
+  "sector_name": "Cleaning and janitorial services",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Facilities Management and Physical Security",
+  "sector_name": "Building operations and maintenance",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Facilities Management and Physical Security",
+  "sector_name": "Physical security services",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Interior",
+   "HCIS (High Commission for Industrial Security)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Facilities Management and Physical Security",
+  "sector_name": "Guarding and surveillance",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Interior",
+   "HCIS (High Commission for Industrial Security)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Facilities Management and Physical Security",
+  "sector_name": "Access control services",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Interior",
+   "HCIS (High Commission for Industrial Security)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Facilities Management and Physical Security",
+  "sector_name": "Landscaping",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Facilities Management and Physical Security",
+  "sector_name": "Pest control",
+  "sequence": 8,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Facilities Management and Physical Security",
+  "sector_name": "Waste collection and disposal",
+  "sequence": 9,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Facilities Management and Physical Security",
+  "sector_name": "Catering and food services",
+  "sequence": 10,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Municipalities and Housing (Balady)",
+   "SFDA (Saudi Food and Drug Authority)",
+   "Civil Defense"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Facilities Management and Physical Security",
+  "sector_name": "Other",
+  "sequence": 11,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Agriculture and Food Production",
+  "sector_name": "Agriculture and farming",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Environment, Water and Agriculture"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Agriculture and Food Production",
+  "sector_name": "Food production and processing",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Environment, Water and Agriculture",
+   "SFDA (Saudi Food and Drug Authority)",
+   "NCEC (National Center for Environmental Compliance)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Agriculture and Food Production",
+  "sector_name": "Livestock and fisheries",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Environment, Water and Agriculture"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Agriculture and Food Production",
+  "sector_name": "Agricultural technology",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Environment, Water and Agriculture"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Agriculture and Food Production",
+  "sector_name": "Food distribution",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Environment, Water and Agriculture",
+   "SFDA (Saudi Food and Drug Authority)",
+   "NCEC (National Center for Environmental Compliance)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Agriculture and Food Production",
+  "sector_name": "Food safety and inspection",
+  "sequence": 6,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "SFDA (Saudi Food and Drug Authority)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Agriculture and Food Production",
+  "sector_name": "Agricultural equipment and supplies",
+  "sequence": 7,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "Ministry of Environment, Water and Agriculture"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Agriculture and Food Production",
+  "sector_name": "Other",
+  "sequence": 8,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Procurement",
+  "sector_name": "Purchasing and sourcing",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Procurement",
+  "sector_name": "E-procurement and tendering platforms",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Procurement",
+  "sector_name": "Procurement consulting",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Procurement",
+  "sector_name": "Contract and vendor management",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Procurement",
+  "sector_name": "Other",
+  "sequence": 5,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ },
+ {
+  "industry_type": "Membership and Non-profit Organizations",
+  "sector_name": "Associations and societies",
+  "sequence": 1,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "NCNP (National Center for Non-Profit Sector)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Membership and Non-profit Organizations",
+  "sector_name": "Charitable and endowment bodies",
+  "sequence": 2,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "NCNP (National Center for Non-Profit Sector)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Membership and Non-profit Organizations",
+  "sector_name": "Charitable aid",
+  "sequence": 3,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "NCNP (National Center for Non-Profit Sector)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Membership and Non-profit Organizations",
+  "sector_name": "Food aid",
+  "sequence": 4,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "NCNP (National Center for Non-Profit Sector)",
+   "SFDA (Saudi Food and Drug Authority)",
+   "Ministry of Municipalities and Housing (Balady)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Membership and Non-profit Organizations",
+  "sector_name": "Professional bodies",
+  "sequence": 5,
+  "is_other": 0,
+  "has_own_regulators": 1,
+  "regulators": [
+   "NCNP (National Center for Non-Profit Sector)"
+  ],
+  "sector_name_ar": ""
+ },
+ {
+  "industry_type": "Membership and Non-profit Organizations",
+  "sector_name": "Other",
+  "sequence": 6,
+  "is_other": 1,
+  "has_own_regulators": 0,
+  "regulators": [],
+  "sector_name_ar": "أخرى"
+ }
+]

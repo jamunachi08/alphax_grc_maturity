@@ -1,0 +1,11 @@
+{%- set ar = (lang == "ar") -%}
+<div dir="{{ 'rtl' if ar else 'ltr' }}" style="font-family:{{ 'Tahoma, Arial' if ar else 'Segoe UI, Arial' }}, sans-serif;color:#1e2a3a;font-size:14px;line-height:1.6">
+	<p>{% if ar %}مرحبًا {{ reg.contact_name }}،{% else %}Hello {{ reg.contact_name }},{% endif %}</p>
+	{% if approved %}
+	<p>{% if ar %}تم اعتماد تسجيل {{ reg.organization_name }}. يمكنك الآن تسجيل الدخول وبدء التقييم:{% else %}The registration for {{ reg.organization_name }} is approved. You can now sign in and start the assessment:{% endif %}</p>
+	<p><a href="{{ link }}">{{ link }}</a></p>
+	{% else %}
+	<p>{% if ar %}لم يتم اعتماد تسجيل {{ reg.organization_name }}. للاستفسار تواصل معنا على {{ brand.support_email if brand else "" }}.{% else %}The registration for {{ reg.organization_name }} was not approved. For questions, contact {{ brand.support_email if brand else "us" }}.{% endif %}</p>
+	{% endif %}
+	{% if brand %}<p style="color:#5a6f87;font-size:12px">{{ (brand.footer_text_ar if ar and brand.footer_text_ar else brand.footer_text) or "" }}</p>{% endif %}
+</div>

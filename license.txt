@@ -1,0 +1,3 @@
+Copyright (c) 2026 IRSAA Business Solution (AlphaX). All rights reserved.
+Proprietary software. Use, copying or distribution requires a written license from IRSAA Business Solution.
+Contact: grc.audit.assessment@irsaa.com

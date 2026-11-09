@@ -1,0 +1,5 @@
+[pre_model_sync]
+# Patches added in this folder will be executed before doctype migration
+
+[post_model_sync]
+# Patches added in this folder will be executed after doctype migration

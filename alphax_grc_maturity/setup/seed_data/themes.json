@@ -1,0 +1,68 @@
+[
+ {
+  "theme_name": "AlphaX Navy",
+  "mode": "Light",
+  "layout_style": "Cards",
+  "primary_color": "#1e3a5f",
+  "primary_dark_color": "#143049",
+  "accent_color": "#1e7b4c",
+  "background_color": "#f4f7fc",
+  "soft_color": "#eef3fa",
+  "font_family": "'Segoe UI', Roboto, system-ui, -apple-system, sans-serif",
+  "google_font": "",
+  "radius": 16
+ },
+ {
+  "theme_name": "IRSAA Emerald",
+  "mode": "Light",
+  "layout_style": "Cards",
+  "primary_color": "#0f6b4f",
+  "primary_dark_color": "#0a5039",
+  "accent_color": "#c8963e",
+  "background_color": "#f3f8f5",
+  "soft_color": "#e6f2ec",
+  "font_family": "'Inter', 'Segoe UI', system-ui, sans-serif",
+  "google_font": "Inter",
+  "radius": 14
+ },
+ {
+  "theme_name": "Desert Sand",
+  "mode": "Light",
+  "layout_style": "Wizard",
+  "primary_color": "#7a4b1e",
+  "primary_dark_color": "#5e3815",
+  "accent_color": "#1e5f74",
+  "background_color": "#faf6ef",
+  "soft_color": "#f2e9da",
+  "font_family": "'Tajawal', 'Segoe UI', system-ui, sans-serif",
+  "google_font": "Tajawal",
+  "radius": 18,
+  "arabic_font_family": "'Tajawal', Tahoma, sans-serif"
+ },
+ {
+  "theme_name": "Midnight",
+  "mode": "Dark",
+  "layout_style": "Cards",
+  "primary_color": "#4f8cff",
+  "primary_dark_color": "#3a74e0",
+  "accent_color": "#33c38f",
+  "background_color": "#0f1722",
+  "soft_color": "#26354a",
+  "font_family": "'Segoe UI', Roboto, system-ui, sans-serif",
+  "google_font": "",
+  "radius": 14
+ },
+ {
+  "theme_name": "Slate Minimal",
+  "mode": "Auto",
+  "layout_style": "Compact",
+  "primary_color": "#334155",
+  "primary_dark_color": "#1e293b",
+  "accent_color": "#0ea5e9",
+  "background_color": "#f8fafc",
+  "soft_color": "#f1f5f9",
+  "font_family": "system-ui, -apple-system, 'Segoe UI', sans-serif",
+  "google_font": "",
+  "radius": 8
+ }
+]

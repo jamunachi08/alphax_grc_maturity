@@ -1,0 +1,321 @@
+{
+ "doctype": "DocType",
+ "name": "GRC Maturity Settings",
+ "module": "AlphaX GRC Maturity",
+ "custom": 0,
+ "owner": "Administrator",
+ "modified_by": "Administrator",
+ "creation": "2026-11-08 09:00:00.000000",
+ "modified": "2026-11-10 09:00:00.000000",
+ "engine": "InnoDB",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "fields": [
+  {
+   "fieldname": "tab_general",
+   "fieldtype": "Tab Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "default_brand",
+   "fieldtype": "Link",
+   "label": "Default Brand",
+   "options": "GRC Maturity Brand",
+   "reqd": 1
+  },
+  {
+   "fieldname": "app_version_label",
+   "fieldtype": "Data",
+   "label": "Version Label",
+   "default": "v1.0"
+  },
+  {
+   "fieldname": "cb1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "enable_arabic",
+   "fieldtype": "Check",
+   "label": "Enable Arabic (RTL)",
+   "default": "1"
+  },
+  {
+   "fieldname": "default_language",
+   "fieldtype": "Select",
+   "label": "Default Language",
+   "options": "en\nar",
+   "default": "en"
+  },
+  {
+   "fieldname": "sb_access",
+   "fieldtype": "Section Break",
+   "label": "Access"
+  },
+  {
+   "fieldname": "registration_mode",
+   "fieldtype": "Select",
+   "label": "Respondent Access",
+   "options": "Registration Required\nRegistration + Approval\nOpen (no registration)",
+   "default": "Registration Required",
+   "reqd": 1,
+   "description": "Registration Required: respondents register on /grc-register and verify their email with a code. Registration + Approval: a manager must approve each registration. Open: anyone with the link can take the assessment. Staff (desk) users always skip registration; test the respondent flow in a private window."
+  },
+  {
+   "fieldname": "otp_expiry_minutes",
+   "fieldtype": "Int",
+   "label": "Code Valid For (minutes)",
+   "default": "10"
+  },
+  {
+   "fieldname": "otp_max_attempts",
+   "fieldtype": "Int",
+   "label": "Max Wrong Codes",
+   "default": "5"
+  },
+  {
+   "fieldname": "otp_resend_seconds",
+   "fieldtype": "Int",
+   "label": "Resend Wait (seconds)",
+   "default": "60"
+  },
+  {
+   "fieldname": "require_contact_email",
+   "fieldtype": "Check",
+   "label": "Require Respondent Email",
+   "default": "1"
+  },
+  {
+   "fieldname": "cb2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "access_key_length",
+   "fieldtype": "Int",
+   "label": "Access Key Length",
+   "default": "8",
+   "description": "Respondents need the report ID plus this key to reopen a report"
+  },
+  {
+   "fieldname": "max_saves_per_hour",
+   "fieldtype": "Int",
+   "label": "Max Saves per Hour per IP",
+   "default": "300"
+  },
+  {
+   "fieldname": "sb_reg_rules",
+   "fieldtype": "Section Break",
+   "label": "Registration Rules"
+  },
+  {
+   "fieldname": "block_free_email",
+   "fieldtype": "Check",
+   "label": "Require a Work Email",
+   "description": "Rejects the email domains listed here"
+  },
+  {
+   "fieldname": "blocked_email_domains",
+   "fieldtype": "Small Text",
+   "label": "Blocked Email Domains",
+   "depends_on": "block_free_email",
+   "default": "gmail.com, googlemail.com, yahoo.com, hotmail.com, outlook.com, live.com, msn.com, icloud.com, aol.com, proton.me, protonmail.com, gmx.com, mail.com, yandex.com"
+  },
+  {
+   "fieldname": "cb_reg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "registration_require_cr",
+   "fieldtype": "Check",
+   "label": "CR Number Required at Registration"
+  },
+  {
+   "fieldname": "registration_require_mobile",
+   "fieldtype": "Check",
+   "label": "Mobile Required at Registration",
+   "default": "1"
+  },
+  {
+   "fieldname": "tab_scoring",
+   "fieldtype": "Tab Break",
+   "label": "Scoring"
+  },
+  {
+   "fieldname": "answer_scale",
+   "fieldtype": "Table",
+   "label": "Answer Scale",
+   "options": "GRC Maturity Answer Scale"
+  },
+  {
+   "fieldname": "bands",
+   "fieldtype": "Table",
+   "label": "Maturity Bands",
+   "options": "GRC Maturity Band"
+  },
+  {
+   "fieldname": "sb_rules",
+   "fieldtype": "Section Break",
+   "label": "Rules"
+  },
+  {
+   "fieldname": "rollup_method",
+   "fieldtype": "Select",
+   "label": "Overall Roll-up",
+   "options": "Pooled Points\nWeighted Section Average",
+   "default": "Pooled Points",
+   "description": "Pooled Points: earned ÷ possible over all questions (effective weight = section × topic × question). Weighted Section Average: each section's % weighted by its section weight."
+  },
+  {
+   "fieldname": "submission_rule",
+   "fieldtype": "HTML",
+   "label": "Submission Rule",
+   "options": "<div class=\"alert alert-info\" style=\"margin:0\"><b>Blank answers are not allowed.</b> Every question in scope must be answered (A–D, or N/A where the question allows it) before an assessment can be submitted, reviewed or closed. This rule is fixed and cannot be switched off.</div>"
+  },
+  {
+   "fieldname": "cb3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "na_excluded",
+   "fieldtype": "Check",
+   "label": "N/A Removes the Question from Possible Points",
+   "default": "1"
+  },
+  {
+   "fieldname": "improvement_threshold",
+   "fieldtype": "Data",
+   "label": "Roadmap Includes Answers",
+   "default": "A,B",
+   "description": "Comma list of answer values that get an improvement row in the report"
+  },
+  {
+   "fieldname": "tab_profile",
+   "fieldtype": "Tab Break",
+   "label": "Profile Form"
+  },
+  {
+   "fieldname": "ask_legal_form",
+   "fieldtype": "Check",
+   "label": "Ask Legal Form",
+   "default": "1"
+  },
+  {
+   "fieldname": "ask_entity_size",
+   "fieldtype": "Check",
+   "label": "Ask Entity Size",
+   "default": "1"
+  },
+  {
+   "fieldname": "ask_license_types",
+   "fieldtype": "Check",
+   "label": "Ask KSA Licenses",
+   "default": "1"
+  },
+  {
+   "fieldname": "cb4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "license_mode",
+   "fieldtype": "Select",
+   "label": "License Entry",
+   "options": "Pick from License Types\nFree Text\nBoth",
+   "default": "Both"
+  },
+  {
+   "fieldname": "ask_regulators",
+   "fieldtype": "Check",
+   "label": "Ask Regulator Yes/No",
+   "default": "1"
+  },
+  {
+   "fieldname": "regulator_answers_drive_questions",
+   "fieldtype": "Check",
+   "label": "Regulator Answers Can Change Questions",
+   "default": "0",
+   "description": "Off (default): the Regulators Yes/No answers are only recorded in the report. On: each regulator answered Yes becomes part of the respondent's profile, so Questions with a 'Regulator' applicability rule and Weightage Profiles scoped to a Regulator start to apply. Example: a question with Include → Regulator = SAMA appears only when the respondent answers Yes to SAMA. Has no effect until such rules or profiles exist."
+  },
+  {
+   "fieldname": "tab_admin",
+   "fieldtype": "Tab Break",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "admin_notes",
+   "fieldtype": "Small Text",
+   "label": "Admin Notes"
+  },
+  {
+   "fieldname": "seed_version",
+   "fieldtype": "Int",
+   "label": "Seed Version",
+   "read_only": 1
+  }
+ ],
+ "field_order": [
+  "tab_general",
+  "default_brand",
+  "app_version_label",
+  "cb1",
+  "enable_arabic",
+  "default_language",
+  "sb_access",
+  "registration_mode",
+  "otp_expiry_minutes",
+  "otp_max_attempts",
+  "otp_resend_seconds",
+  "require_contact_email",
+  "cb2",
+  "access_key_length",
+  "max_saves_per_hour",
+  "sb_reg_rules",
+  "block_free_email",
+  "blocked_email_domains",
+  "cb_reg",
+  "registration_require_cr",
+  "registration_require_mobile",
+  "tab_scoring",
+  "answer_scale",
+  "bands",
+  "sb_rules",
+  "rollup_method",
+  "submission_rule",
+  "cb3",
+  "na_excluded",
+  "improvement_threshold",
+  "tab_profile",
+  "ask_legal_form",
+  "ask_entity_size",
+  "ask_license_types",
+  "cb4",
+  "license_mode",
+  "ask_regulators",
+  "regulator_answers_drive_questions",
+  "tab_admin",
+  "admin_notes",
+  "seed_version"
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "print": 1,
+   "email": 1
+  },
+  {
+   "role": "GRC Maturity Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "print": 1,
+   "email": 1
+  }
+ ],
+ "istable": 0,
+ "issingle": 1,
+ "description": "",
+ "index_web_pages_for_search": 0,
+ "track_changes": 1
+}

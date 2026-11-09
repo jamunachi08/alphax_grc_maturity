@@ -1,0 +1,40 @@
+[
+ {
+  "nationality": "100% Saudi with Saudi Commercial Registration",
+  "nationality_ar": "سعودية بالكامل مع سجل تجاري سعودي",
+  "sequence": 1,
+  "ask_cr": 1,
+  "is_foreign": 0,
+  "regulators": []
+ },
+ {
+  "nationality": "Not full local ownership, but it has a Saudi CR",
+  "nationality_ar": "ملكية غير محلية بالكامل مع سجل تجاري سعودي",
+  "sequence": 2,
+  "ask_cr": 1,
+  "is_foreign": 1,
+  "regulators": [
+   "MISA (Ministry of Investment)"
+  ]
+ },
+ {
+  "nationality": "Branch of a foreign entity with a Saudi CR and an investment license",
+  "nationality_ar": "فرع لكيان أجنبي مع سجل تجاري سعودي وترخيص استثمار",
+  "sequence": 3,
+  "ask_cr": 1,
+  "is_foreign": 1,
+  "regulators": [
+   "MISA (Ministry of Investment)"
+  ]
+ },
+ {
+  "nationality": "100% foreign working with a Saudi company as a partner",
+  "nationality_ar": "أجنبية بالكامل وتعمل مع شريك سعودي",
+  "sequence": 4,
+  "ask_cr": 0,
+  "is_foreign": 1,
+  "regulators": [
+   "MISA (Ministry of Investment)"
+  ]
+ }
+]
